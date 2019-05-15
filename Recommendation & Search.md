@@ -51,6 +51,8 @@ e.
 
 - YouTube深度学习推荐系统的十大工程问题 (<https://zhuanlan.zhihu.com/p/52504407>)
 
+- 揭开YouTube深度推荐系统模型Serving之谜 (<https://zhuanlan.zhihu.com/p/61827629>)
+
 - 关于'Deep Neural Networks for YouTube Recommendations'的一些思考和实现(<https://www.jianshu.com/p/f9d2abc486c9>)
 
 - 论文笔记：Deep neural networks for YouTube recommendations(<https://blog.csdn.net/xiongjiezk/article/details/73445835>)
@@ -71,6 +73,15 @@ e.
 
 #### Article
 
+### 4. Practical Lessons from Predicting Clicks on Ads at Facebook - Facebook2014
+
+**Keywords**: LR + GBDT
+
+**URL**: <http://quinonero.net/Publications/predicting-clicks-facebook.pdf>
+
+#### Article
+
+a. Practical Lessons from Predicting Clicks on Ads at Facebook (<http://www.bubuko.com/infodetail-1902390.html>)
 
 
 ## Search
@@ -80,3 +91,6 @@ e.
 **Keywords**:
 
 **URL**: <https://www.kdd.org/kdd2018/accepted-papers/view/real-time-personalization-using-embeddings-for-search-ranking-at-airbnb>
+
+
+
