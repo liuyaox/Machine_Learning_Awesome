@@ -22,7 +22,7 @@ a. [从KDD 2018 Best Paper看Airbnb实时搜索排序中的Embedding技巧](http
 
 ### 2. [Billion-scale similarity search with GPUs - Facebook2017](https://arxiv.org/abs/1702.08734)
 
-**Keywords**: FAISS; 
+**Keywords**: FAISS
 
 **Github**: <https://github.com/facebookresearch/faiss>
 

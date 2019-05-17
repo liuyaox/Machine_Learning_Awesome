@@ -3,7 +3,7 @@
 
 ## Overview
 
-### 计算广告CTR预估系列 1-9 
+### 1. 计算广告CTR预估系列 1-9 
 
 from公众号：机器学习荐货情报局
 
@@ -49,7 +49,7 @@ from公众号：机器学习荐货情报局
 
 #### Article
 
-- [Practical Lessons from Predicting Clicks on Ads at Facebook](<http://www.bubuko.com/infodetail-1902390.html>)
+- [Practical Lessons from Predicting Clicks on Ads at Facebook](http://www.bubuko.com/infodetail-1902390.html)
 
 
 ### 3. DIN - [Deep Interest Network for Click-Through Rate Prediction - Ali2018](https://arxiv.org/abs/1706.06978)
@@ -65,12 +65,24 @@ from公众号：机器学习荐货情报局
 - [计算广告CTR预估系列(五)--阿里Deep Interest Network理论](https://blog.csdn.net/u010352603/article/details/80590152)
 
 
-#### 4. Mixed LR - [Learning Piece-wise Linear Models from Large Scale Data for Ad Click Prediction - Ali2017](https://arxiv.org/abs/1704.05194)
+### 4. Mixed LR - [Learning Piece-wise Linear Models from Large Scale Data for Ad Click Prediction - Ali2017](https://arxiv.org/abs/1704.05194)
 
-**Keywords**: Mixed LR; 
+**Keywords**: Mixed LR
 
 **Key Points**: 基于Mixed LR的CTR模型，核心思想是聚类LR
 
 #### Article
 
 - [计算广告CTR预估系列(六)–阿里Mixed Logistic Regression](https://blog.csdn.net/u010352603/article/details/80681239)
+
+
+### 5. FTRL - [Ad Click Prediction - A View From the Trenches - Google2013](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41159.pdf)
+
+**Keywords**: Online Advertising; Data Mining; Large-scale Learning
+
+**Key Points**: FTRL，一种大规模在线学习算法
+
+#### Article
+
+- [各大公司广泛使用的在线学习算法FTRL详解](http://www.cnblogs.com/EE-NovRain/p/3810737.html)
+
