@@ -9,11 +9,16 @@
 
 ### 0. Overview
 
-### 1. [Real-time Personalization using Embeddings for Search Ranking at Airbnb - Airbnb2018](https://www.kdd.org/kdd2018/accepted-papers/view/real-time-personalization-using-embeddings-for-search-ranking-at-airbnb)
+### 1. [Real-time Personalization using Embeddings for Search Ranking at Airbnb - Airbnb2018](https://astro.temple.edu/~tua95067/kdd2018.pdf)
 
-**Keywords**:
+**Keywords**: Search Ranking; User Modeling; Personalization
 
-**要点**: Embedding用于个性化搜索排序
+**要点**: 生成各种Embedding用于个性化搜索排序
+
+#### Article
+
+a. [从KDD 2018 Best Paper看Airbnb实时搜索排序中的Embedding技巧](https://zhuanlan.zhihu.com/p/55149901)
+
 
 ### 2. [Billion-scale similarity search with GPUs - Facebook2017](https://arxiv.org/abs/1702.08734)
 

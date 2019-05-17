@@ -37,6 +37,8 @@ c. 细节太多，受启发的也太多！
 
 #### Article
 
+- [重读Youtube深度学习推荐系统论文，字字珠玑，惊为神文](https://zhuanlan.zhihu.com/p/52169807)
+
 - [YouTube深度学习推荐系统的十大工程问题](<https://zhuanlan.zhihu.com/p/52504407>)
 
 - [揭开YouTube深度推荐系统模型Serving之谜](<https://zhuanlan.zhihu.com/p/61827629>)
