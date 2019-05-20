@@ -39,20 +39,22 @@ c. 细节太多，受启发的也太多！
 
 - [重读Youtube深度学习推荐系统论文，字字珠玑，惊为神文](https://zhuanlan.zhihu.com/p/52169807)
 
-- [YouTube深度学习推荐系统的十大工程问题](<https://zhuanlan.zhihu.com/p/52504407>)
+- [YouTube深度学习推荐系统的十大工程问题](https://zhuanlan.zhihu.com/p/52504407)
 
-- [揭开YouTube深度推荐系统模型Serving之谜](<https://zhuanlan.zhihu.com/p/61827629>)
+- [揭开YouTube深度推荐系统模型Serving之谜](https://zhuanlan.zhihu.com/p/61827629)
 
-- [关于'Deep Neural Networks for YouTube Recommendations'的一些思考和实现(实际实现的总结)](<https://www.jianshu.com/p/f9d2abc486c9>)
+- [关于'Deep Neural Networks for YouTube Recommendations'的一些思考和实现(实际实现的总结)](https://www.jianshu.com/p/f9d2abc486c9)
 
-- [Deep Neural Network for YouTube Recommendation论文精读](<https://zhuanlan.zhihu.com/p/25343518>)
+- [Deep Neural Network for YouTube Recommendation论文精读](https://zhuanlan.zhihu.com/p/25343518)
 
-- [Youtube基于深度学习的视频推荐](<https://www.jianshu.com/p/19ef129fdde2>)
+- [Youtube基于深度学习的视频推荐](https://www.jianshu.com/p/19ef129fdde2)
 
 #### Source
 
-**Github**: <https://github.com/yangxudong/deeplearning/tree/master/youtube_match_model>
+- **Github**: <https://github.com/yangxudong/deeplearning/tree/master/youtube_match_model>
 
-**Github**: <https://github.com/QingqingSUN/YoutubeNet>
+- **Github**: <https://github.com/QingqingSUN/YoutubeNet>
 
+### 3. [Latent Cross: Making Use of Context in Recurrent Recommender Systems](http://alexbeutel.com/papers/wsdm2018_latent_cross.pdf)
 
+**Key Points**: 基于RNN来使用时序Context信息，比如浏览和搜索历史记录中的时序信息，应用于Youtube推荐。
