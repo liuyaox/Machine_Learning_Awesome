@@ -10,13 +10,17 @@
 
 a. [Classic papers and resources on recommendation](<https://github.com/wzhe06/Reco-papers>)
 
-**要点**：推荐系统论文、学习资料、业界分享
+#### Yao
+
+推荐系统论文、学习资料、业界分享。
 
 ### 1. [Wide & Deep Learning of Recommender System - Google2016](https://arxiv.org/abs/1606.07792)
 
 **Keywords**: Recommender System; Wide & Deep Learning
 
-**Key Points**: Wide属于广义线性模型，用于Memorization，Deep是深度模型，用于Generalization，Memorization可修正Generalization，Wide & Deep 就是希望计算机可以像人脑一样，同时发挥Memorization和Generalization的作用。
+#### Yao
+
+Wide属于广义线性模型，用于Memorization，Deep是深度模型，用于Generalization，Memorization可修正Generalization，Wide & Deep 就是希望计算机可以像人脑一样，同时发挥Memorization和Generalization的作用。
 
 #### Source
 
@@ -67,4 +71,6 @@ c. 细节太多，受启发的也太多！
 
 ### 3. [Latent Cross: Making Use of Context in Recurrent Recommender Systems](http://alexbeutel.com/papers/wsdm2018_latent_cross.pdf)
 
-**Key Points**: 基于RNN来使用时序Context信息，比如浏览和搜索历史记录中的时序信息，应用于Youtube推荐。
+#### Yao
+
+基于RNN来使用时序Context信息，比如浏览和搜索历史记录中的时序信息，应用于Youtube推荐。
