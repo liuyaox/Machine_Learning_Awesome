@@ -16,6 +16,16 @@ a. [Classic papers and resources on recommendation](<https://github.com/wzhe06/R
 
 **Keywords**: Recommender System; Wide & Deep Learning
 
+**Key Points**: Wide属于广义线性模型，用于Memorization，Deep是深度模型，用于Generalization，Memorization可修正Generalization，Wide & Deep 就是希望计算机可以像人脑一样，同时发挥Memorization和Generalization的作用。
+
+#### Source
+
+- **Github**: <https://github.com/tensorflow/models/tree/master/official/wide_deep>
+
+#### Article
+
+- [Wide & Deep Learning: Better Together with TensorFlow](https://ai.googleblog.com/2016/06/wide-deep-learning-better-together-with.html)
+
 
 ### 2. [Deep Neural Networks for YouTube Recommendations - Google2016](https://research.google.com/pubs/archive/45530.pdf)
 
