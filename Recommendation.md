@@ -74,3 +74,12 @@ c. 细节太多，受启发的也太多！
 #### Yao
 
 基于RNN来使用时序Context信息，比如浏览和搜索历史记录中的时序信息，应用于Youtube推荐。
+
+
+### Newest
+
+#### 1. [Generative Adversarial User Model for Reinforcement Learning Based Recommendation System - Alibaba2019](https://arxiv.org/abs/1812.10613)
+
+**Keywords**: 
+
+**Article**: [强化学习用于推荐系统，蚂蚁金服提出生成对抗用户模型](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650763260&idx=3&sn=ae589196211189a8aba6f56a11e2cccb&chksm=871aab82b06d22942d37c9b6efe33cd9647050599f293e59ffc8ababeedb9f8c80afbd80b509&mpshare=1&scene=1&srcid=&key=cb3ec8ead4de2b57a5408b541f10e3f0ecd245330456cb144715b99337220c527dcebbf0949b3c699fe5e195aa470f536bfe22b312054cd619966a7463b357fd5163f83998ec968509053ad0064f1925&ascene=1&uin=MjcwMjE1Nzk1&devicetype=Windows+7&version=62060739&lang=en&pass_ticket=JI1MPoW%2BxCBIF0Z4bW%2BdFwp%2F0VZpd29%2Fw5MfRsN9cbQTsYET60iGog3kaYxwyraC)
