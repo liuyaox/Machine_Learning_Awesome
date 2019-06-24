@@ -1,20 +1,17 @@
 
-# Recommendation
+# 3. Recommendation
 
-## Overview
+## 3.1 Overview
 
+#### Github
 
-## Deep Learning
+- [Classic papers and resources on recommendation](<https://github.com/wzhe06/Reco-papers>)
 
-### 0. Overview
+    推荐系统论文、学习资料、业界分享。
 
-a. [Classic papers and resources on recommendation](<https://github.com/wzhe06/Reco-papers>)
+## 3.2 Famous
 
-#### Yao
-
-推荐系统论文、学习资料、业界分享。
-
-### 1. [Wide & Deep Learning of Recommender System - Google2016](https://arxiv.org/abs/1606.07792)
+### 3.2.1 [Wide & Deep Learning of Recommender System - Google2016](https://arxiv.org/abs/1606.07792)
 
 **Keywords**: Recommender System; Wide & Deep Learning
 
@@ -22,16 +19,16 @@ a. [Classic papers and resources on recommendation](<https://github.com/wzhe06/R
 
 Wide属于广义线性模型，用于Memorization，Deep是深度模型，用于Generalization，Memorization可修正Generalization，Wide & Deep 就是希望计算机可以像人脑一样，同时发挥Memorization和Generalization的作用。
 
-#### Source
+#### Code
 
-- **Github**: <https://github.com/tensorflow/models/tree/master/official/wide_deep>
+- <https://github.com/tensorflow/models/tree/master/official/wide_deep>
 
 #### Article
 
 - [Wide & Deep Learning: Better Together with TensorFlow](https://ai.googleblog.com/2016/06/wide-deep-learning-better-together-with.html)
 
 
-### 2. [Deep Neural Networks for YouTube Recommendations - Google2016](https://research.google.com/pubs/archive/45530.pdf)
+### 3.2.2 [Deep Neural Networks for YouTube Recommendations - Google2016](https://research.google.com/pubs/archive/45530.pdf)
 
 **Keywords**: Recommender System; Deep Learning; Scalability
 
@@ -49,6 +46,12 @@ b. Example Age: 机器学习系统在训练阶段都是利用过去的行为预�
 
 c. 细节太多，受启发的也太多！
 
+#### Code
+
+- <https://github.com/yangxudong/deeplearning/tree/master/youtube_match_model>
+
+- <https://github.com/QingqingSUN/YoutubeNet>
+
 #### Article
 
 - [重读Youtube深度学习推荐系统论文，字字珠玑，惊为神文](https://zhuanlan.zhihu.com/p/52169807)
@@ -63,23 +66,20 @@ c. 细节太多，受启发的也太多！
 
 - [Youtube基于深度学习的视频推荐](https://www.jianshu.com/p/19ef129fdde2)
 
-#### Source
 
-- **Github**: <https://github.com/yangxudong/deeplearning/tree/master/youtube_match_model>
-
-- **Github**: <https://github.com/QingqingSUN/YoutubeNet>
-
-### 3. [Latent Cross: Making Use of Context in Recurrent Recommender Systems](http://alexbeutel.com/papers/wsdm2018_latent_cross.pdf)
+### 3.2.3 [Latent Cross: Making Use of Context in Recurrent Recommender Systems](http://alexbeutel.com/papers/wsdm2018_latent_cross.pdf)
 
 #### Yao
 
 基于RNN来使用时序Context信息，比如浏览和搜索历史记录中的时序信息，应用于Youtube推荐。
 
 
-### Newest
+## 3.3 Newest
 
-#### 1. [Generative Adversarial User Model for Reinforcement Learning Based Recommendation System - Alibaba2019](https://arxiv.org/abs/1812.10613)
+### 3.3.1 [Generative Adversarial User Model for Reinforcement Learning Based Recommendation System - Alibaba2019](https://arxiv.org/abs/1812.10613)
 
 **Keywords**: 
 
-**Article**: [强化学习用于推荐系统，蚂蚁金服提出生成对抗用户模型](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650763260&idx=3&sn=ae589196211189a8aba6f56a11e2cccb&chksm=871aab82b06d22942d37c9b6efe33cd9647050599f293e59ffc8ababeedb9f8c80afbd80b509&mpshare=1&scene=1&srcid=&key=cb3ec8ead4de2b57a5408b541f10e3f0ecd245330456cb144715b99337220c527dcebbf0949b3c699fe5e195aa470f536bfe22b312054cd619966a7463b357fd5163f83998ec968509053ad0064f1925&ascene=1&uin=MjcwMjE1Nzk1&devicetype=Windows+7&version=62060739&lang=en&pass_ticket=JI1MPoW%2BxCBIF0Z4bW%2BdFwp%2F0VZpd29%2Fw5MfRsN9cbQTsYET60iGog3kaYxwyraC)
+#### Article
+
+- [强化学习用于推荐系统，蚂蚁金服提出生成对抗用户模型](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650763260&idx=3&sn=ae589196211189a8aba6f56a11e2cccb&chksm=871aab82b06d22942d37c9b6efe33cd9647050599f293e59ffc8ababeedb9f8c80afbd80b509&mpshare=1&scene=1&srcid=&key=cb3ec8ead4de2b57a5408b541f10e3f0ecd245330456cb144715b99337220c527dcebbf0949b3c699fe5e195aa470f536bfe22b312054cd619966a7463b357fd5163f83998ec968509053ad0064f1925&ascene=1&uin=MjcwMjE1Nzk1&devicetype=Windows+7&version=62060739&lang=en&pass_ticket=JI1MPoW%2BxCBIF0Z4bW%2BdFwp%2F0VZpd29%2Fw5MfRsN9cbQTsYET60iGog3kaYxwyraC)
