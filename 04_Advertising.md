@@ -86,3 +86,20 @@ from公众号：机器学习荐货情报局
 - [计算广告CTR预估系列(五)--阿里Deep Interest Network理论](https://blog.csdn.net/u010352603/article/details/80590152)
 
 
+## 4.4 Competition
+
+- <https://github.com/wangle1218/Advertising-algorithm-competition>
+
+    2018 腾讯广告算法大赛/IJCAI 阿里妈妈搜索广告转化预测竞赛/讯飞广告营销算法/OGeek，模型有：LightGBM, LR, DeepFFM
+
+- <https://github.com/BladeCoda/Tencent2017_Final_Coda_Allegro>
+
+    腾讯2017社交广告源码（决赛排名第23位），模型有：LightGBM, XGBoost
+
+- <https://github.com/DiligentPanda/Tencent_Ads_Algo_2018> (PyTorch)
+
+    Tencent advertisement algorithm competition 2018. Ranked the 3rd place in the final round.
+
+- <https://github.com/hengchao0248/ccf2016_sougou> (Keras)
+
+    2016CCF 大数据精准营销中搜狗用户画像挖掘 final winner solution
