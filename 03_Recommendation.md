@@ -9,13 +9,18 @@
 
     推荐系统论文、学习资料、业界分享。
 
+- <https://github.com/chocoluffy/deep-recommender-system>
+
+    深度学习在推荐系统中的应用及论文小结。
+
+
 ## 3.2 Famous
 
 ### 3.2.1 [Wide & Deep Learning of Recommender System - Google2016](https://arxiv.org/abs/1606.07792)
 
 **Keywords**: Recommender System; Wide & Deep Learning
 
-#### Yao
+**YAO**:
 
 Wide属于广义线性模型，用于Memorization，Deep是深度模型，用于Generalization，Memorization可修正Generalization，Wide & Deep 就是希望计算机可以像人脑一样，同时发挥Memorization和Generalization的作用。
 
@@ -32,7 +37,7 @@ Wide属于广义线性模型，用于Memorization，Deep是深度模型，用于
 
 **Keywords**: Recommender System; Deep Learning; Scalability
 
-#### Yao
+**YAO**:
 
 信息量非常大，可以学习的点特别多！
 
@@ -69,7 +74,7 @@ c. 细节太多，受启发的也太多！
 
 ### 3.2.3 [Latent Cross: Making Use of Context in Recurrent Recommender Systems](http://alexbeutel.com/papers/wsdm2018_latent_cross.pdf)
 
-#### Yao
+**YAO**:
 
 基于RNN来使用时序Context信息，比如浏览和搜索历史记录中的时序信息，应用于Youtube推荐。
 
@@ -82,4 +87,4 @@ c. 细节太多，受启发的也太多！
 
 #### Article
 
-- [强化学习用于推荐系统，蚂蚁金服提出生成对抗用户模型](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650763260&idx=3&sn=ae589196211189a8aba6f56a11e2cccb&chksm=871aab82b06d22942d37c9b6efe33cd9647050599f293e59ffc8ababeedb9f8c80afbd80b509&mpshare=1&scene=1&srcid=&key=cb3ec8ead4de2b57a5408b541f10e3f0ecd245330456cb144715b99337220c527dcebbf0949b3c699fe5e195aa470f536bfe22b312054cd619966a7463b357fd5163f83998ec968509053ad0064f1925&ascene=1&uin=MjcwMjE1Nzk1&devicetype=Windows+7&version=62060739&lang=en&pass_ticket=JI1MPoW%2BxCBIF0Z4bW%2BdFwp%2F0VZpd29%2Fw5MfRsN9cbQTsYET60iGog3kaYxwyraC)
+- [强化学习用于推荐系统，蚂蚁金服提出生成对抗用户模型](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650763260&idx=3&sn=ae589196211189a8aba6f56a11e2cccb)
