@@ -34,6 +34,10 @@ from公众号：机器学习荐货情报局
 
 **Key Points**: 利用树模型(GBDT)组合特征的能力自动做特征组合，作为新的特征叠加到LR模型里再训练一个LR模型。
 
+#### Code
+
+- <https://github.com/neal668/LightGBM-GBDT-LR>
+
 #### Article
 
 - [Practical Lessons from Predicting Clicks on Ads at Facebook](http://www.bubuko.com/infodetail-1902390.html)
