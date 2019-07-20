@@ -3,9 +3,9 @@
 
 ## 4.1 Overview
 
-### 4.1.1 计算广告CTR预估系列 1-9 
+#### Article
 
-from公众号：机器学习荐货情报局
+**计算广告CTR预估系列 1-9 from公众号：机器学习荐货情报局**:
 
 - [计算广告CTR预估系列(一)--DeepFM理论](https://mp.weixin.qq.com/s?__biz=MzU0NDgwNzIwMQ==&mid=2247483673&idx=1&sn=256e57219c8d577c61f25221c346053c)
 
@@ -24,6 +24,36 @@ from公众号：机器学习荐货情报局
 - [计算广告CTR预估系列(八)--PNN模型理论与实践](https://mp.weixin.qq.com/s?__biz=MzU0NDgwNzIwMQ==&mid=2247483719&idx=1&sn=ab9b912145c94ef299bc8484372794e9)
 
 - [计算广告CTR预估系列(九)--NFM模型理论与实践](https://mp.weixin.qq.com/s?__biz=MzU0NDgwNzIwMQ==&mid=2247483738&idx=1&sn=61334a86c12f027cf6964196b62b3e7e)
+
+#### Competition
+
+- <https://github.com/luoda888/2018-IJCAI-top3>
+
+    2018 IJCAI alimama Top3 Code  3/5204 
+
+- <https://github.com/wangle1218/Advertising-algorithm-competition>
+
+    2018 腾讯广告算法大赛/IJCAI 阿里妈妈搜索广告转化预测竞赛/讯飞广告营销算法/OGeek，模型有：LightGBM, LR, DeepFFM
+
+- <https://github.com/DiligentPanda/Tencent_Ads_Algo_2018> (PyTorch)
+
+    Tencent advertisement algorithm competition 2018. Ranked the 3rd place in the final round.
+
+- <https://github.com/BladeCoda/Tencent2017_Final_Coda_Allegro>
+
+    腾讯2017社交广告源码（决赛排名第23位），模型有：LightGBM, XGBoost
+
+- <https://github.com/ColaDrill/tx_competition>
+
+    2018腾讯广告算法大赛  Top3, Top12, Top15 总结分享
+
+- <https://github.com/classtag/ijcai18-mama-ads-competition> 
+
+    IJCAI-19 阿里妈妈搜索广告转化预测初赛方案，模型有：LightGBM, CatBoost
+
+- <https://github.com/ShawnyXiao/2018-Kaggle-AdTrackingFraud>
+
+    2018 - Kaggle - TalkingData AdTracking Fraud Detection Challenge: Silver medal (银牌), 模型是LightGBM
 
 
 ## 4.2 Classic
@@ -89,25 +119,3 @@ from公众号：机器学习荐货情报局
 
 - [计算广告CTR预估系列(五)--阿里Deep Interest Network理论](https://blog.csdn.net/u010352603/article/details/80590152)
 
-
-## 4.4 Competition
-
-- <https://github.com/wangle1218/Advertising-algorithm-competition>
-
-    2018 腾讯广告算法大赛/IJCAI 阿里妈妈搜索广告转化预测竞赛/讯飞广告营销算法/OGeek，模型有：LightGBM, LR, DeepFFM
-
-- <https://github.com/DiligentPanda/Tencent_Ads_Algo_2018> (PyTorch)
-
-    Tencent advertisement algorithm competition 2018. Ranked the 3rd place in the final round.
-
-- <https://github.com/BladeCoda/Tencent2017_Final_Coda_Allegro>
-
-    腾讯2017社交广告源码（决赛排名第23位），模型有：LightGBM, XGBoost
-
-- <https://github.com/hengchao0248/ccf2016_sougou> (Keras)
-
-    2016CCF 大数据精准营销中搜狗用户画像挖掘 final winner solution
-
-- <https://github.com/classtag/ijcai18-mama-ads-competition> 
-
-    IJCAI-19 阿里妈妈搜索广告转化预测初赛方案，模型有：LightGBM, CatBoost
