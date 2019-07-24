@@ -25,27 +25,38 @@
 
 - [计算广告CTR预估系列(九)--NFM模型理论与实践](https://mp.weixin.qq.com/s?__biz=MzU0NDgwNzIwMQ==&mid=2247483738&idx=1&sn=61334a86c12f027cf6964196b62b3e7e)
 
+#### Code
+
+- <https://github.com/guoday/ctrNet-tool> (Tensorflow)
+
+    This's the tool for CTR, including FM, FFM, NFFM and so on.
+
+
 #### Competition
 
-- <https://github.com/luoda888/2018-IJCAI-top3>
-
-    2018 IJCAI alimama Top3 Code  3/5204 
+**2018腾讯广告算法大赛**:
 
 - <https://github.com/wangle1218/Advertising-algorithm-competition>
 
-    2018 腾讯广告算法大赛/IJCAI 阿里妈妈搜索广告转化预测竞赛/讯飞广告营销算法/OGeek，模型有：LightGBM, LR, DeepFFM
+    IJCAI 阿里妈妈搜索广告转化预测竞赛/讯飞广告营销算法/OGeek，模型有：LightGBM, LR, DeepFFM
 
 - <https://github.com/DiligentPanda/Tencent_Ads_Algo_2018> (PyTorch)
 
     Tencent advertisement algorithm competition 2018. Ranked the 3rd place in the final round.
 
+- <https://github.com/ColaDrill/tx_competition>
+
+    Top3, Top12, Top15 总结分享
+
 - <https://github.com/BladeCoda/Tencent2017_Final_Coda_Allegro>
 
     腾讯2017社交广告源码（决赛排名第23位），模型有：LightGBM, XGBoost
 
-- <https://github.com/ColaDrill/tx_competition>
+**阿里妈妈2018 IJCAI CTR预估**:
 
-    2018腾讯广告算法大赛  Top3, Top12, Top15 总结分享
+- <https://github.com/luoda888/2018-IJCAI-top3>
+
+    2018 IJCAI alimama Top3 Code  3/5204， 模型有：LightGBM, XGBoost, CatBoost, GBDT+LR, DeepFFM, DeepFM, FNN
 
 - <https://github.com/classtag/ijcai18-mama-ads-competition> 
 
