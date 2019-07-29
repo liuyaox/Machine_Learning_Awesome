@@ -18,3 +18,9 @@
 - <https://github.com/yongyehuang/DC-hi_guides>
 
     [Data Castle 算法竞赛] 精品旅行服务成单预测 final rank 11
+
+**2016天池 优惠券使用预测**:
+
+- <https://github.com/wepe/O2O-Coupon-Usage-Forecast>
+
+    Top 1 Place Solution for O2O Coupon Usage Forecast, 2016年
