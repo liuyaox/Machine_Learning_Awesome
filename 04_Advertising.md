@@ -34,6 +34,15 @@
 
 #### Competition
 
+**2019腾讯广告算法大赛**:
+
+- <https://github.com/guoday/tencent2019_preliminary_rank1st>
+
+    The code for 2019 Tencent College Algorithm Contest, and the online result ranks 1st in the preliminary.
+
+    **Article**: 【Great!!!】[2019腾讯广告算法大赛-冠军之路](https://zhuanlan.zhihu.com/p/72762888)
+
+
 **2018腾讯广告算法大赛**:
 
 - <https://github.com/wangle1218/Advertising-algorithm-competition>
@@ -42,7 +51,7 @@
 
 - <https://github.com/DiligentPanda/Tencent_Ads_Algo_2018> (PyTorch)
 
-    Tencent advertisement algorithm competition 2018. Ranked the 3rd place in the final round.
+    Tencent advertisement algorithm competition 2018. Rank 3 in the final round.
 
 - <https://github.com/ColaDrill/tx_competition>
 
@@ -52,11 +61,17 @@
 
     腾讯2017社交广告源码（决赛排名第23位），模型有：LightGBM, XGBoost
 
+
 **阿里妈妈2018 IJCAI CTR预估**:
+
+- <https://github.com/plantsgo/ijcai-2018>
+
+    Top1 Solution
 
 - <https://github.com/luoda888/2018-IJCAI-top3>
 
-    2018 IJCAI alimama Top3 Code  3/5204， 模型有：LightGBM, XGBoost, CatBoost, GBDT+LR, DeepFFM, DeepFM, FNN
+    Top3 Code  3/5204， 模型有：LightGBM, XGBoost, CatBoost, GBDT+LR, DeepFFM, DeepFM, FNN
+
 
 - <https://github.com/classtag/ijcai18-mama-ads-competition> 
 

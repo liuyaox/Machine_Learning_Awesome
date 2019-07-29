@@ -88,3 +88,12 @@ c. 细节太多，受启发的也太多！
 #### Article
 
 - [强化学习用于推荐系统，蚂蚁金服提出生成对抗用户模型](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650763260&idx=3&sn=ae589196211189a8aba6f56a11e2cccb)
+
+
+## 3.4 Competition
+
+**2017达观杯 个性化推荐算法挑战赛**:
+
+- <https://github.com/hecongqing/2017-daguan-competition>
+
+    Rank6
