@@ -27,3 +27,9 @@
 - <https://github.com/sunwantong/China-Merchants-Bank-credit-card-Cente-User-purchase-forecast>
 
     Top1
+
+**2016 拍拍贷风险控制大赛**:
+
+- <https://github.com/wepe/PPD_RiskControlCompetition>
+
+    铜牌
