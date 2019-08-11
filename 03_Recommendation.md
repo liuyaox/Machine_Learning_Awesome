@@ -97,3 +97,17 @@ c. 细节太多，受启发的也太多！
 - <https://github.com/hecongqing/2017-daguan-competition>
 
     Rank6
+
+
+## 3.5 Others
+
+#### Paper
+
+- [Telepath: Understanding Users from a Human Vision Perspective in Large-Scale Recommender Systems - JD2017](https://arxiv.org/abs/1709.00300)
+
+- [Learning Tree-based Deep Model for Recommender Systems - Alibaba2018](https://arxiv.org/abs/1801.02294)
+
+
+#### Article
+
+- [](https://www.kdnuggets.com/2017/10/linkedin-personalized-recommendations-photon-ml.html)

@@ -24,3 +24,18 @@
 - <https://github.com/wepe/O2O-Coupon-Usage-Forecast>
 
     Top 1 Place Solution for O2O Coupon Usage Forecast, 2016年
+
+**Kaggle网站流量预测**
+
+- <https://github.com/Arturus/kaggle-web-traffic> (Tensorflow)
+
+    Rank 1
+
+**2016阿里流行音乐趋势预测**
+
+- [深度学习-LSTM网络-代码-示例](https://blog.csdn.net/u012609509/article/details/51910405)
+
+
+#### Practice
+
+- [Multivariate Time Series Forecasting with LSTMs in Keras - 2017](https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/)

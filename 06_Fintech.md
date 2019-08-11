@@ -33,3 +33,12 @@
 - <https://github.com/wepe/PPD_RiskControlCompetition>
 
     铜牌
+
+**融360 用户贷款风险预测**
+
+- <https://github.com/hczheng/Rong360>
+
+    Rank 7
+
+    **Article**: [用户贷款风险预测之Top10初体验](https://blog.csdn.net/sb19931201/article/details/56315689)
+
