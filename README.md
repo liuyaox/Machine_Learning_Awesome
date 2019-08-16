@@ -1,16 +1,7 @@
-# Paper Study
+# Machine Learning Application
 
-## Content
+Search, Recommendation, Advertising, Computer Vision, FinTech, User Profile, Forecasting, Location Based System, etc.
 
-### 1. Machine Learning Basic
-
-### 2. Search
-
-### 3. Recommendation
-
-### 4. Advertising
-
-### 5. Computer Vision
 
 ## 套路大全
 
