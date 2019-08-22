@@ -37,4 +37,10 @@
 - [从KDD 2018 Best Paper看Airbnb实时搜索排序中的Embedding技巧](https://zhuanlan.zhihu.com/p/55149901)
 
 
-## 2.3 Newest
+## 2.3 Application
+
+#### Practice
+
+- <https://github.com/liuhuanyong/QueryCorrection>
+
+    基于拼音相似度与编辑距离的查询纠错，如"手机课"-->"手机壳"
