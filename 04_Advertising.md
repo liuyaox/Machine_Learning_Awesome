@@ -68,6 +68,10 @@
 
     Top1 Solution
 
+- <https://github.com/YouChouNoBB/ijcai-18-top2-single-mole-solution>
+
+    Top2 单模型方案，没有特征选择没有调参LGB单模型857个特征
+
 - <https://github.com/luoda888/2018-IJCAI-top3>
 
     Top3 Code  3/5204， 模型有：LightGBM, XGBoost, CatBoost, GBDT+LR, DeepFFM, DeepFM, FNN

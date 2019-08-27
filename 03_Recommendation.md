@@ -110,4 +110,6 @@ c. 细节太多，受启发的也太多！
 
 #### Article
 
-- [](https://www.kdnuggets.com/2017/10/linkedin-personalized-recommendations-photon-ml.html)
+- [How LinkedIn Makes Personalized Recommendations via Photon-ML Machine Learning tool - 2017](https://www.kdnuggets.com/2017/10/linkedin-personalized-recommendations-photon-ml.html)
+
+- [BERT 在推荐系统领域可能会有什么作为？](https://www.zhihu.com/question/308362332)
