@@ -92,7 +92,7 @@ c. 细节太多，受启发的也太多！
 
 ## 3.4 Competition
 
-**2017达观杯 个性化推荐算法挑战赛**:
+**2017达观杯 个性化推荐算法挑战赛**
 
 - <https://github.com/hecongqing/2017-daguan-competition>
 

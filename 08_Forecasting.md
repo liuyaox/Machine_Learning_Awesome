@@ -2,10 +2,9 @@
 
 ## 8.1 Overview
 
-
 #### Competition
 
-**京东杯2019第六届泰达创新创业挑战赛-用户对品类下店铺的购买预测**:
+**京东杯2019第六届泰达创新创业挑战赛-用户对品类下店铺的购买预测**
 
 - <https://github.com/vinklibrary/jdata_code>
 
@@ -19,17 +18,20 @@
 
     [Data Castle 算法竞赛] 精品旅行服务成单预测 final rank 11
 
-**2016天池 优惠券使用预测**:
+
+**2016天池 优惠券使用预测**
 
 - <https://github.com/wepe/O2O-Coupon-Usage-Forecast>
 
     Top 1 Place Solution for O2O Coupon Usage Forecast, 2016年
+
 
 **Kaggle网站流量预测**
 
 - <https://github.com/Arturus/kaggle-web-traffic> (Tensorflow)
 
     Rank 1
+
 
 **2016阿里流行音乐趋势预测**
 

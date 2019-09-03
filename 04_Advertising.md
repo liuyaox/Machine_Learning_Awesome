@@ -34,16 +34,16 @@
 
 #### Competition
 
-**2019腾讯广告算法大赛**:
+**2019腾讯广告算法大赛**
 
 - <https://github.com/guoday/tencent2019_preliminary_rank1st>
 
     The code for 2019 Tencent College Algorithm Contest, and the online result ranks 1st in the preliminary.
 
-    **Article**: 【Great!!!】[2019腾讯广告算法大赛-冠军之路](https://zhuanlan.zhihu.com/p/72762888)
+    **Article**: 【Great】[2019腾讯广告算法大赛-冠军之路](https://zhuanlan.zhihu.com/p/72762888)
 
 
-**2018腾讯广告算法大赛**:
+**2018腾讯广告算法大赛**
 
 - <https://github.com/wangle1218/Advertising-algorithm-competition>
 
@@ -62,7 +62,7 @@
     腾讯2017社交广告源码（决赛排名第23位），模型有：LightGBM, XGBoost
 
 
-**阿里妈妈2018 IJCAI CTR预估**:
+**阿里妈妈2018 IJCAI CTR预估**
 
 - <https://github.com/plantsgo/ijcai-2018>
 
