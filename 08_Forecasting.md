@@ -4,6 +4,13 @@
 
 #### Competition
 
+**JDD-2017 京东金融大数据竞赛-销量预测**
+
+- <https://github.com/batch-norm/JDD-2017>
+
+    Rank 15/889 
+
+
 **京东杯2019第六届泰达创新创业挑战赛-用户对品类下店铺的购买预测**
 
 - <https://github.com/vinklibrary/jdata_code>
