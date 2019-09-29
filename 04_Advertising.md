@@ -42,6 +42,8 @@
 
     **Article**: 【Great】[2019腾讯广告算法大赛-冠军之路](https://zhuanlan.zhihu.com/p/72762888)
 
+    **Article**: [一文梳理2019年腾讯广告算法大赛冠军方案](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652054840&idx=4&sn=90bd20b8bf39d401be58ce72b44b0d8c)
+
 
 **2018腾讯广告算法大赛**
 
