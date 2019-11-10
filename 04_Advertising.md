@@ -25,12 +25,15 @@
 
 - [计算广告CTR预估系列(九)--NFM模型理论与实践](https://mp.weixin.qq.com/s?__biz=MzU0NDgwNzIwMQ==&mid=2247483738&idx=1&sn=61334a86c12f027cf6964196b62b3e7e)
 
-#### Code
+#### Library
 
 - <https://github.com/guoday/ctrNet-tool> (Tensorflow)
 
     This's the tool for CTR, including FM, FFM, NFFM and so on.
 
+- <https://github.com/shenweichen/DeepCTR>
+
+    Easy-to-use, Modular and Extendible package of deep-learning based CTR models. 包含很多主流的模型，如FM, PNN, Wide&Deep, DeepFM, xDeepFM, AFM, NFM, DIEN, NFFM, FGCNN, DSIN, FiBiNET
 
 #### Competition
 
