@@ -26,3 +26,7 @@
 - <https://github.com/PandasCute/2018-CCF-BDCI-China-Unicom-Research-Institute-top2>
 
     复赛第二名解决方案
+
+#### Article
+
+- [用户画像必会的行为偏好计算方法 - 2019](https://mp.weixin.qq.com/s?__biz=MzIwODI2NDkxNQ==&mid=2247486233&idx=3&sn=70f1a2e7720af760bb4d03cbfdb3258d)
