@@ -1,7 +1,7 @@
 
-# 1. Machine Learning Basic
+# 0. Theory Overview
 
-## 1.1 Overview
+## 0.1 Overview
 
 #### Paper
 
@@ -25,6 +25,13 @@
 - <https://github.com/ddbourgin/numpy-ml> (Python)
 
     Machine Learning in NumPy - 纯 NumPy 编写 Machine Learning 模型算法！惊为天人！
+
+
+#### Website
+
+- <https://www.jiqizhixin.com/sota>
+
+    机器之心：输入技术/任务/数据集，可快速查找相关的SOTA模型
 
 
 #### Course
@@ -103,7 +110,7 @@
 - [机器学习中有哪些形式简单却很巧妙的idea - 2019](https://www.zhihu.com/question/347847220)
 
 
-## 1.2 Data
+## 0.2 Data
 
 #### Image
 
@@ -116,13 +123,13 @@
     Collection of scripts to aggregate image data for the purposes of training an NSFW Image Classifier
 
 
-## 1.3 Math
+## 0.3 Math
 
-## 1.3.1 套路大全
+## 0.3.1 套路大全
 
 - 向量相乘，如 $v_i^{T}u_j$ 表示两个向量的距离，可用于表征两向量的相似/接近程度.
 
-### 1.3.2 Probability
+### 0.3.2 Probability
 
 #### Code
 
@@ -133,7 +140,7 @@
     **Article**: [Distribution is all you need：这里有12种做ML不可不知的分布](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650770528&idx=4&sn=5ece1d49995b419a114017d26af8cc5b)
 
 
-## 1.4 Optimization
+## 0.4 Optimization
 
 #### Paper
 
@@ -142,7 +149,7 @@
     **Article**: [An overview of gradient descent optimization algorithms - 2016](http://ruder.io/optimizing-gradient-descent/)
 
 
-## 1.5 Crows Validation
+## 0.5 Crows Validation
 
 #### Article
 
@@ -153,7 +160,7 @@
     **Chinese**: [一文简述如何使用嵌套交叉验证方法处理时序数据](https://www.jiqizhixin.com/articles/052701)
 
 
-## 1.6 Cost Function
+## 0.6 Cost Function
 
 #### Article
 
@@ -161,7 +168,7 @@
 
 
 
-## 1.7 Train & Apply
+## 0.7 Train & Apply
 
 #### Article
 

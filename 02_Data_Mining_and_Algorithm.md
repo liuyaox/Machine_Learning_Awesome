@@ -1,11 +1,11 @@
 
-# 3. Data Mining and Algorithm
+# 2. Data Mining and Algorithm
 
-## 3.1 Overview
+## 2.1 Overview
 
 
 
-## 3.3 Similarity
+## 2.3 Similarity
 
 欧式距离、曼哈顿距离、余弦距离、相关系数这些easy的就不说了
 
@@ -14,7 +14,7 @@
 - [概率分布之间的距离度量以及python实现 - 2017](https://www.cnblogs.com/wt869054461/p/7156397.html)
 
 
-### 3.3.1 Histogram & Distribution Similarity
+### 2.3.1 Histogram & Distribution Similarity
 
 直方图Similarity，有时也适用于计算概率分布的Similarity
 
@@ -89,7 +89,7 @@ OpenCV: [EMD](https://docs.opencv.org/3.0-beta/modules/imgproc/doc/histograms.ht
 - [向量相似度度量（三）：科普-为什么度量方式很重要](https://blog.csdn.net/wangdonggg/article/details/35280735)
 
 
-### 3.3.2 Simhash
+### 2.3.2 Simhash
 
 [Detecting Near-Duplicates for Web Crawling - Google2007](http://www.wwwconference.org/www2007/papers/paper215.pdf)
 
@@ -104,7 +104,7 @@ OpenCV: [EMD](https://docs.opencv.org/3.0-beta/modules/imgproc/doc/histograms.ht
 - [文档去重算法：SimHash和MinHash - 2015](https://blog.csdn.net/heiyeshuwu/article/details/44117473)
 
 
-### 3.3.3 Locality Sensitive Hashing
+### 2.3.3 Locality Sensitive Hashing
 
 LSH：即局部敏感哈希，用于海量高维数据的近似最近邻快速查找
 
@@ -113,7 +113,7 @@ LSH：即局部敏感哈希，用于海量高维数据的近似最近邻快速�
 - [局部敏感哈希(Locality-Sensitive Hashing, LSH)方法介绍](https://www.cnblogs.com/wt869054461/p/8148940.html)
 
 
-## 3.4 Information Theory
+## 2.4 Information Theory
 
 ### Overview
 
@@ -130,7 +130,7 @@ LSH：即局部敏感哈希，用于海量高维数据的近似最近邻快速�
 - [Kullback-Leibler Divergence Explained](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
 
 
-## 3.5 SVD
+## 2.5 SVD
 
 #### Article
 

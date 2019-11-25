@@ -1,6 +1,6 @@
-# 7. User Profile
+# 27. User Profile
 
-## 7.1 Overview
+## 27.1 Overview
 
 #### Competition
 

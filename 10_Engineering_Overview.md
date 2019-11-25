@@ -1,10 +1,5 @@
-# 14. Others
+# 10. Engineering Overview
 
-## 14.1 AutoML
+## 10.1 Overview
 
-#### Paper
-
-- <https://github.com/windmaple/awesome-AutoML>
-
-    Curating a list of AutoML-related research, tools, projects and other resources
 

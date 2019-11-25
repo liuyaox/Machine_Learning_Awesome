@@ -1,6 +1,6 @@
-# 8. Time Series
+# 7. Time Series
 
-## 8.1 Overview
+## 7.1 Overview
 
 #### Article
 

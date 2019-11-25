@@ -1,7 +1,7 @@
 
-# 2. Machine Learning Algorithm
+# 1. Machine Learning Algorithm
 
-## 2.1 Overview
+## 1.1 Overview
 
 #### Code
 
@@ -10,10 +10,10 @@
     整理所学的机器学习算法，并根据自己所理解的样子叙述出来。(注重数学推导)
 
 
-## 2.2 Linear Regression
+## 1.2 Linear Regression
 
 
-## 2.3 Logistic Regression
+## 1.3 Logistic Regression
 
 #### Article
 
@@ -22,14 +22,14 @@
     **YAO**: LR中参数更新是通过增加负样本权重，让样本重新排列，不是梯度下降法！SGDClassifier中的LR是通过梯度下降法。
 
 
-## 2.4 Naive Bayesian
+## 1.4 Naive Bayesian
 
 #### Article
 
 - [用朴素贝叶斯进行文本分类 - 2016](http://www.sohu.com/a/57924447_308467)
 
 
-## 2.8 GBDT & XGBoost & LightGBM
+## 1.8 GBDT & XGBoost & LightGBM
 
 #### Article
 
@@ -46,9 +46,9 @@
     **Chinese**: [从结构到性能，一文概述XGBoost、Light GBM和CatBoost的同与不同](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247491325&idx=4&sn=5ed726c8a3560a0eac1413a17e56b9cb)
 
 
-## 2.9 Clustering
+## 1.9 Clustering
 
-### 2.9.1 Overview
+### 1.9.1 Overview
 
 #### Article
 
@@ -57,7 +57,7 @@
     **Chinese**: [4种基本聚类算法应如何正确选择？这份攻略值得你收藏](https://mp.weixin.qq.com/s/xCIEWc2KpsjMixXHrzZ1rA)
 
 
-## 2.10 Dimensionality Reduction
+## 1.10 Dimensionality Reduction
 
 #### Code
 

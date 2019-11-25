@@ -1,7 +1,7 @@
 
-# 4. Deep Learning
+# 3. Deep Learning
 
-## 4.1 Overview
+## 3.1 Overview
 
 #### Paper
 
@@ -66,7 +66,7 @@
 - [神经网络多样性的意义何在？既然多层感知机在理论上已经可以拟合任何函数，为什么要有不同的形式？](https://www.zhihu.com/question/342489117)
 
 
-## 4.2 CNN
+## 3.2 CNN
 
 #### Paper
 
@@ -103,7 +103,7 @@
     **Chinese**: [卷积有多少种？一文读懂深度学习中的各种卷积](https://mp.weixin.qq.com/s?__biz=MzUyOTU2MjE1OA==&mid=2247486088&idx=1&sn=78af01181a293551aef468baeac1ae00)
 
 
-## 4.3 RNN
+## 3.3 RNN
 
 #### Article
 
@@ -112,9 +112,9 @@
 - [卷积网络循环网络结合-CNN+RNN - 2018](http://www.sohu.com/a/222287668_609569)
 
 
-## 4.4 LSTM/GRU
+## 3.4 LSTM/GRU
 
-### 4.4.1 LSTM
+### 3.4.1 LSTM
 
 - LSTM: [Long short-term memory](https://www.bioinf.jku.at/publications/older/2604.pdf)
 
@@ -140,7 +140,7 @@
 - [如何准备用于LSTM模型的数据并进行序列预测？（附代码）](https://www.jiqizhixin.com/articles/2018-12-18-16)
 
 
-### 4.4.2 AWD-LSTM
+### 3.4.2 AWD-LSTM
 
 AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout ，加入词嵌入 dropout ，权重绑定等。建议**使用 AWD-LSTM 来替代 LSTM 以获得更好的模型效果**。
 
@@ -153,7 +153,7 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 - [Github by fastAI](https://github.com/fastai/fastai/blob/master/fastai/text/models/awd_lstm.py)
 
 
-### 4.4.3 Adversarial LSTM
+### 3.4.3 Adversarial LSTM
 
 [Adversarial Training Methods for Semi-Supervised Text Classification - 2016](https://arxiv.org/abs/1605.07725)
 
@@ -164,12 +164,12 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 - [文本分类实战（七）—— Adversarial LSTM 模型](https://www.cnblogs.com/jiangxinyang/p/10208363.html)
 
 
-### 4.4.4 Advanced LSTM
+### 3.4.4 Advanced LSTM
 
 [Advanced LSTM: A Study about Better Time Dependency Modeling in Emotion Recognition - Alibaba2017](https://arxiv.org/abs/1710.10197)
 
 
-### 4.4.5 ON-LSTM
+### 3.4.5 ON-LSTM
 
 [Ordered Neurons: Integrating Tree Structures into Recurrent Neural Networks - 2019](https://arxiv.org/abs/1810.09536)
 
@@ -180,10 +180,10 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 - <https://github.com/yikangshen/Ordered-Neurons>
 
 
-### 4.4.6 GRU
+### 3.4.6 GRU
 
 
-## 4.5 Other CNN/RNN/TCN
+## 3.5 Other CNN/RNN/TCN
 
 - QRNN: [Quasi-Recurrent Neural Networks - Salesforce2016](https://arxiv.org/abs/1611.01576)
 
@@ -204,7 +204,7 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
     **Chinese**: [时间卷积网络（TCN）在 NLP 多领域发光，RNN 或将没落](https://yq.aliyun.com/articles/593033)
 
 
-## 4.6 Backpropogation
+## 3.6 Backpropogation
 
 #### Article
 
@@ -213,9 +213,9 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 - [你真的理解反向传播吗 - 2019](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247492079&idx=4&sn=5fb740d5324e1b1c3dec83fd8599196a)
 
 
-## 4.6 Activation
+## 3.6 Activation
 
-### 4.6.1 Overview
+### 3.6.1 Overview
 
 #### Paper
 
@@ -245,7 +245,7 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 - [请问人工神经网络中的activation function的作用具体是什么？为什么ReLu要好过于tanh和sigmoid function?](https://www.zhihu.com/question/29021768)
 
 
-### 4.6.2 ReLU
+### 3.6.2 ReLU
 
 - ReLU: 正值时斜率为1，负值时斜率为0
 
@@ -258,7 +258,7 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 有学者将当前最优的两类CNN结合不同的激活函数在CIFAR-10,CIFAR-100和NDSB数据集上做实验，评价四种激活函数的优劣。 实验结果表明Leaky ReLU取较大的alpha准确率更好。Parametric ReLU很容易在小数据集上过拟合（训练集上错误率最低，测试集上不理想），但依然比ReLU好。RReLU效果较好，实验表明它可以克服模型过拟合，这可能由于alpha选择的随机性。在实践中， Parametric ReLU 和 Randomized ReLU 都是可取的。
 
 
-## 4.7 Loss Function
+## 3.7 Loss Function
 
 #### Paper
 
@@ -283,9 +283,9 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 - [深度学习中loss和accuracy的关系](https://www.zhihu.com/question/264892967)
 
 
-## 4.8 Regularization
+## 3.8 Regularization
 
-### 4.8.1 Overview
+### 3.8.1 Overview
 
 #### Article
 
@@ -294,14 +294,14 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
     **Chinese**: [深度学习中的正则化技术概述（附Python+keras实现代码）](https://mp.weixin.qq.com/s?__biz=MzUyOTU2MjE1OA==&mid=2247485921&idx=1&sn=b5a9320c0e7a89679de7695f3406bec7)
 
 
-### 4.8.2 L1 & L2
+### 3.8.2 L1 & L2
 
 - L1: 取模型所有参数的绝对值 $\lambda|W|$ 作为惩罚项加入到目标函数中。L1会使得权重向量变得稀疏(非常接近零)
 
 - L2: 最常用，取模型所有参数的平方级 $\lambda W^2 /2$ 作为惩罚项加入到目标函数中。L2对尖峰向量的惩罚很强，并且倾向于分散权重的向量。
 
 
-### 4.8.3 Dropout
+### 3.8.3 Dropout
 
 - Dropout: 训练时对神经网络节点进行子采样(有些子节点在向前向后连接时不考虑)，测试时Dropout不使用
 
@@ -334,7 +334,7 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 - [Dropout可能要换了，Hinton等研究者提出神似剪枝的Targeted Dropout](http://www.sohu.com/a/277688850_129720)
 
 
-### 4.8.4 Batch Normalization
+### 3.8.4 Batch Normalization
 
 - Layer Normalization: [Layer Normalization - Toronto2016](https://arxiv.org/abs/1607.06450)
 
@@ -365,9 +365,9 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 - [常用的 Normalization 方法：BN、LN、IN、GN - 2019](https://zhuanlan.zhihu.com/p/72589565)
 
 
-## 4.9 Optimization
+## 3.9 Optimization
 
-### 4.9.1 Overview
+### 3.9.1 Overview
 
 #### Article
 
@@ -386,7 +386,7 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 - [神经网络优化算法：Dropout、梯度消失/爆炸、Adam优化算法，一篇就够了！- 2019](https://zhuanlan.zhihu.com/p/78854514)
 
 
-### 4.9.2 Adam
+### 3.9.2 Adam
 
 - Adam: 
 
@@ -399,9 +399,9 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
     **Chinese**: [不是我们喜新厌旧，而是 RAdam 确实是好用，新的 State of the Art 优化器 RAdam](https://mp.weixin.qq.com/s?__biz=MzIwOTc2MTUyMg==&mid=2247493046&idx=2&sn=538eaec72c6eccd92d16f3106a0d836a)
 
 
-## 4.10 Initialization
+## 3.10 Initialization
 
-### 4.10.1 Overview
+### 3.10.1 Overview
 
 Xavier Initialization is better for tanh and sigmoid, and He Initialization is better for ReLU.
 
@@ -412,18 +412,18 @@ Xavier Initialization is better for tanh and sigmoid, and He Initialization is b
     神经网络中的权重初始化一览：从基础到Kaiming
 
 
-### 4.10.2 Xavier
+### 3.10.2 Xavier
 
 [Understanding the difficulty of training deep feedforward neural networks - Canada2010](http://proceedings.mlr.press/v9/glorot10a/glorot10a.pdf)
 
 又叫 Glorot Uniform ？
 
-### 4.10.3 Kaiming
+### 3.10.3 Kaiming
 
 [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification - Microsoft2015](https://arxiv.org/abs/1502.01852)
 
 
-## 4.11 Capsule
+## 3.11 Capsule
 
 #### Paper
 
@@ -457,14 +457,14 @@ Xavier Initialization is better for tanh and sigmoid, and He Initialization is b
 - [揭开迷雾，来一顿美味的Capsule盛宴 - 2018](https://kexue.fm/archives/4819)
 
 
-## 4.12 GAN
+## 3.12 GAN
 
 #### Tool
 
 - [GAN Lab: Play with GANs in your browser](https://poloclub.github.io/ganlab/)
 
 
-## 4.13 Reinforcement Learning
+## 3.13 Reinforcement Learning
 
 #### Code
 
@@ -485,7 +485,7 @@ Xavier Initialization is better for tanh and sigmoid, and He Initialization is b
     **Chinese**: [基于强化学习的句子摘要排序](https://mp.weixin.qq.com/s?__biz=MzI3ODgwODA2MA==&mid=2247487291&idx=3&sn=5f117067af1b56f5ae7afbfd0aa33ce4)
 
 
-## 4.14 Others
+## 3.14 Others
 
 #### Article
 

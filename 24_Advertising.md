@@ -1,7 +1,7 @@
 
-# 4. Advertising
+# 24. Advertising
 
-## 4.1 Overview
+## 24.1 Overview
 
 #### Article
 
@@ -91,9 +91,9 @@
     2018 - Kaggle - TalkingData AdTracking Fraud Detection Challenge: Silver medal (银牌), 模型是LightGBM
 
 
-## 4.2 Classic
+## 24.2 Classic
 
-### 4.2.1 [Practical Lessons from Predicting Clicks on Ads at Facebook - Facebook2014](http://quinonero.net/Publications/predicting-clicks-facebook.pdf)
+### 24.2.1 [Practical Lessons from Predicting Clicks on Ads at Facebook - Facebook2014](http://quinonero.net/Publications/predicting-clicks-facebook.pdf)
 
 **Keywords**: LR + GBDT
 
@@ -108,7 +108,7 @@
 - [Practical Lessons from Predicting Clicks on Ads at Facebook](http://www.bubuko.com/infodetail-1902390.html)
 
 
-### 4.2.2 Mixed LR - [Learning Piece-wise Linear Models from Large Scale Data for Ad Click Prediction - Ali2017](https://arxiv.org/abs/1704.05194)
+### 24.2.2 Mixed LR - [Learning Piece-wise Linear Models from Large Scale Data for Ad Click Prediction - Ali2017](https://arxiv.org/abs/1704.05194)
 
 **Keywords**: Mixed LR
 
@@ -119,7 +119,7 @@
 - [计算广告CTR预估系列(六)–阿里Mixed Logistic Regression](https://blog.csdn.net/u010352603/article/details/80681239)
 
 
-### 4.2.3 FTRL - [Ad Click Prediction - A View From the Trenches - Google2013](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41159.pdf)
+### 24.2.3 FTRL - [Ad Click Prediction - A View From the Trenches - Google2013](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/41159.pdf)
 
 **Keywords**: Online Advertising; Data Mining; Large-scale Learning
 
@@ -130,19 +130,19 @@
 - [各大公司广泛使用的在线学习算法FTRL详解](http://www.cnblogs.com/EE-NovRain/p/3810737.html)
 
 
-## 4.3 Deep Learning
+## 24.3 Deep Learning
 
-### 4.3.1 Overview
+### 24.3.1 Overview
 
 
-### 4.3.2 [Audience Expansion for Online Social Network Advertising - LinkedIn2016](https://www.kdd.org/kdd2016/papers/files/adf0483-liuA.pdf)
+### 24.3.2 [Audience Expansion for Online Social Network Advertising - LinkedIn2016](https://www.kdd.org/kdd2016/papers/files/adf0483-liuA.pdf)
 
 **Keywords**: Online Advertising; Audience Expansion; Lookalike Modeling
 
 **Key Points**: 
 
 
-### 4.3.3 DIN - [Deep Interest Network for Click-Through Rate Prediction - Ali2018](https://arxiv.org/abs/1706.06978)
+### 24.3.3 DIN - [Deep Interest Network for Click-Through Rate Prediction - Ali2018](https://arxiv.org/abs/1706.06978)
 
 **Keywords**: CTR Prediction; Display Advertising; E-commerce; DIN; Attention Mechanism
 

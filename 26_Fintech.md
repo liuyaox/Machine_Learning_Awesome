@@ -1,6 +1,6 @@
-# 6. Fintech
+# 26. Fintech
 
-## 6.1 Overview
+## 26.1 Overview
 
 #### Competition
 

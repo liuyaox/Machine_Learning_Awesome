@@ -1,6 +1,6 @@
-# 10. Data Preprocessing
+# 11. Data Preprocessing
 
-## 10.1 Overview
+## 11.1 Overview
 
 #### Article
 
@@ -37,7 +37,7 @@
     **Chinese**: [HyperparameterHunter 3.0：一文教你学会自动化特征工程 - 2019](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650768854&idx=4&sn=f5c6ba9f90e19352ededc43187014b0d)
 
 
-## 10.2 Imbalanced Data
+## 11.2 Imbalanced Data
 
 For Samples
 
@@ -56,9 +56,9 @@ For Samples
 - [不平衡数据集的处理 - 2018](https://www.cnblogs.com/kamekin/p/9824294.html)
 
 
-## 10.3 Feature Preprocessing
+## 11.3 Feature Preprocessing
 
-### 10.3.1 Overview
+### 11.3.1 Overview
 
 #### Book & Code
 
@@ -79,7 +79,7 @@ For Samples
 - [How Feature Engineering can help you do well in a Kaggle competition - 2017](https://medium.com/unstructured/how-feature-engineering-can-help-you-do-well-in-a-kaggle-competition-part-iii-f67567aaf57c)
 
 
-### 10.3.2 Standardization & Normalization
+### 11.3.2 Standardization & Normalization
 
 #### Article
 
@@ -88,14 +88,14 @@ For Samples
 - [关于标准化和归一化的一切 - 2019](https://mp.weixin.qq.com/s?__biz=MzIwODI2NDkxNQ==&mid=2247484804&idx=3&sn=74e2179759b1a3a5f9b8c3434cdbfb01)
   
 
-### 10.3.3 Onehot Encoding
+### 11.3.3 Onehot Encoding
 
 #### Article
 
 - [数据预处理：独热编码（One-Hot Encoding）- 2017](https://blog.csdn.net/pipisorry/article/details/61193868)
 
 
-## 10.4 Feature Selection
+## 11.4 Feature Selection
 
 #### Article
 
@@ -108,7 +108,7 @@ For Samples
     **Chinese**: [特征选择怎么做？这篇文章告诉你](https://mp.weixin.qq.com/s?__biz=MzU3NjE4NjQ4MA==&mid=2247486261&idx=4&sn=04a6e216468b8429e38f580089dd9f82)
 
 
-## 10.5 Dimensionality Reduction
+## 11.5 Dimensionality Reduction
 
 #### Article
 
@@ -116,7 +116,7 @@ For Samples
 
 
 
-## 10.6 Data Augmentation
+## 11.6 Data Augmentation
 
 #### Paper
 

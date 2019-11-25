@@ -1,7 +1,7 @@
 
-# 5. Probabilistic Graphical Models (PGM)
+# 4. Probabilistic Graphical Models (PGM)
 
-## 5.1 Overview
+## 4.1 Overview
 
 Hidden Markov Model, Bayesian Network, Conditional Random Field, Maximum Entropy Markov Model, Latent Dirichlet Allocation, LSI
 
@@ -22,9 +22,9 @@ Course: <https://www.coursera.org/specializations/probabilistic-graphical-models
 - [Handbook of Graphical Models](https://stat.ethz.ch/~maathuis/papers/Handbook.pdf)
 
 
-## 5.2 Bayesian 
+## 4.2 Bayesian 
 
-## 5.2.1 Bayesian Network (BN)
+## 4.2.1 Bayesian Network (BN)
 
 ### Article
 
@@ -33,7 +33,7 @@ Course: <https://www.coursera.org/specializations/probabilistic-graphical-models
 - [贝叶斯网络，看完这篇我终于理解了(附代码)！ - 2019](https://zhuanlan.zhihu.com/p/73415944)
 
 
-## 5.2.2 Bayesian Deep Learning
+## 4.2.2 Bayesian Deep Learning
 
 ### Practice
 
@@ -42,7 +42,7 @@ Course: <https://www.coursera.org/specializations/probabilistic-graphical-models
     **Reference**: [Building a Bayesian deep learning classifier - 2017](https://towardsdatascience.com/building-a-bayesian-deep-learning-classifier-ece1845bc09)
 
 
-## 5.3 Hidden Markov Model (HMM)
+## 4.3 Hidden Markov Model (HMM)
 
 #### Concept
 
@@ -113,7 +113,7 @@ Viterbi算法：本质上是DP(Dynamic Programming)算法
     **YAO**: 待以后细细研究
 
 
-## 5.4 Maximum Entrop Markov Model (MEMM)
+## 4.4 Maximum Entrop Markov Model (MEMM)
 
 Y1 --> Y2 --> Y3 --> ... --> Yn
 |      |      |              |
@@ -156,7 +156,7 @@ $$score(Y|X) = \sum_{j=1}^C\lambda_jf_j(X, Y)$$
 MEMM讨论最多的是标注偏置问题，……，MEMM倾向于选择拥有更少转移的状态
 
 
-## 5.5 Conditional Random Field (CRF)
+## 4.5 Conditional Random Field (CRF)
 
 #### Concept
 
@@ -265,12 +265,12 @@ $$P(Y|X)=softmax(score(Y|X))$$
     HMM VS CRF：两者都有**马尔可夫假设(状态$Y_i$只与$Y_{i-1}$相关)**，前者还有观测值独立假设，后者不需要这个假设。
 
 
-## 5.6 MEM, and Others
+## 4.6 MEM, and Others
 
 MEM: Maximum Entropy Model
 
 
-## 5.7 Expectation-Maximization (EM)
+## 4.7 Expectation-Maximization (EM)
 
 
 

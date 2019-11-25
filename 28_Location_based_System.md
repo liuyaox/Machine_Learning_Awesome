@@ -1,6 +1,6 @@
-# 9. Location Based System
+# 28. Location Based System
 
-## 9.1 Overview
+## 28.1 Overview
 
 #### Article
 

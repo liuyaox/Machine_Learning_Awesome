@@ -1,7 +1,7 @@
 
-# 6. Topic Models
+# 5. Topic Models
 
-## 6.1 Overview
+## 5.1 Overview
 
 Topic modeling is an unsupervised learning method that assumes each document consists of a mixture of topics and each topic is a probability distribution over words. The output of topic modeling is a set of word clusters. Each cluster forms a topic and is a probability distribution over words in the document collection.
 
@@ -10,7 +10,7 @@ Topic modeling is an unsupervised learning method that assumes each document con
 - [百度NLP | Familia：开源的中文主题模型应用工具包](http://baijiahao.baidu.com/s?id=1574779177327287)
 
 
-## 6.2 LDA
+## 5.2 LDA
 
 #### Library
 
@@ -45,12 +45,12 @@ Topic modeling is an unsupervised learning method that assumes each document con
     基于python gensim 库的LDA算法 对中文进行文本分析
 
 
-## 6.3 LSA
+## 5.3 LSA
 
 LSA = TFIDF + SVD ?
 
 
-## 6.4 LSI
+## 5.4 LSI
 
 LDA VS LSA VS LSI ???
 

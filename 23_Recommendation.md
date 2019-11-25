@@ -1,7 +1,7 @@
 
-# 3. Recommendation
+# 23. Recommendation
 
-## 3.1 Overview
+## 23.1 Overview
 
 #### Github
 
@@ -14,9 +14,9 @@
     深度学习在推荐系统中的应用及论文小结。
 
 
-## 3.2 Famous
+## 23.2 Famous
 
-### 3.2.1 [Wide & Deep Learning of Recommender System - Google2016](https://arxiv.org/abs/1606.07792)
+### 23.2.1 [Wide & Deep Learning of Recommender System - Google2016](https://arxiv.org/abs/1606.07792)
 
 **Keywords**: Recommender System; Wide & Deep Learning
 
@@ -33,7 +33,7 @@ Wide属于广义线性模型，用于Memorization，Deep是深度模型，用于
 - [Wide & Deep Learning: Better Together with TensorFlow](https://ai.googleblog.com/2016/06/wide-deep-learning-better-together-with.html)
 
 
-### 3.2.2 [Deep Neural Networks for YouTube Recommendations - Google2016](https://research.google.com/pubs/archive/45530.pdf)
+### 23.2.2 [Deep Neural Networks for YouTube Recommendations - Google2016](https://research.google.com/pubs/archive/45530.pdf)
 
 **Keywords**: Recommender System; Deep Learning; Scalability
 
@@ -72,16 +72,16 @@ c. 细节太多，受启发的也太多！
 - [Youtube基于深度学习的视频推荐](https://www.jianshu.com/p/19ef129fdde2)
 
 
-### 3.2.3 [Latent Cross: Making Use of Context in Recurrent Recommender Systems](http://alexbeutel.com/papers/wsdm2018_latent_cross.pdf)
+### 23.2.3 [Latent Cross: Making Use of Context in Recurrent Recommender Systems](http://alexbeutel.com/papers/wsdm2018_latent_cross.pdf)
 
 **YAO**:
 
 基于RNN来使用时序Context信息，比如浏览和搜索历史记录中的时序信息，应用于Youtube推荐。
 
 
-## 3.3 Newest
+## 23.3 Newest
 
-### 3.3.1 [Generative Adversarial User Model for Reinforcement Learning Based Recommendation System - Alibaba2019](https://arxiv.org/abs/1812.10613)
+### 23.3.1 [Generative Adversarial User Model for Reinforcement Learning Based Recommendation System - Alibaba2019](https://arxiv.org/abs/1812.10613)
 
 **Keywords**: 
 
@@ -90,7 +90,7 @@ c. 细节太多，受启发的也太多！
 - [强化学习用于推荐系统，蚂蚁金服提出生成对抗用户模型](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650763260&idx=3&sn=ae589196211189a8aba6f56a11e2cccb)
 
 
-## 3.4 Competition
+## 23.4 Competition
 
 **2017达观杯 个性化推荐算法挑战赛**
 
@@ -99,7 +99,7 @@ c. 细节太多，受启发的也太多！
     Rank6
 
 
-## 3.5 Others
+## 23.5 Others
 
 #### Paper
 

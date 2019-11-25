@@ -1,10 +1,10 @@
-# 11. Visualization
+# 12. Visualization
 
-## 11.1 Overview
+## 12.1 Overview
 
 
 
-## 11.2 t-SNE
+## 12.2 t-SNE
 
 #### Article
 

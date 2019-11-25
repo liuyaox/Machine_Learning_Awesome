@@ -1,6 +1,6 @@
-# 7. Learn To Rank
+# 6. Learn To Rank
 
-## 7.1 Overview
+## 6.1 Overview
 
 #### Paper
 
@@ -25,7 +25,7 @@
 - [学习排序 Learning to Rank：从 pointwise 和 pairwise 到 listwise，经典模型与优缺点 - 2018](https://blog.csdn.net/lipengcn/article/details/80373744)
 
 
-## 7.2 Metric
+## 6.2 Metric
 
 #### Article
 
