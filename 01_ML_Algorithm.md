@@ -45,6 +45,8 @@
 
     **Chinese**: [从结构到性能，一文概述XGBoost、Light GBM和CatBoost的同与不同](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247491325&idx=4&sn=5ed726c8a3560a0eac1413a17e56b9cb)
 
+- [一文详尽系列之CatBoost - 2019](https://mp.weixin.qq.com/s?__biz=MzIwODI2NDkxNQ==&mid=2247486708&idx=3&sn=9cf831ba8db248b4d708a375daddd122)
+
 
 ## 1.9 Clustering
 

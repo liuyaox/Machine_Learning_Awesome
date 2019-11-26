@@ -102,6 +102,8 @@
 
     **Chinese**: [卷积有多少种？一文读懂深度学习中的各种卷积](https://mp.weixin.qq.com/s?__biz=MzUyOTU2MjE1OA==&mid=2247486088&idx=1&sn=78af01181a293551aef468baeac1ae00)
 
+- [四张图彻底搞懂CNN反向传播算法（通俗易懂） - 2019](https://zhuanlan.zhihu.com/p/81675803)
+
 
 ## 3.3 RNN
 
