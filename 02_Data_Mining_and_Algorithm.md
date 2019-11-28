@@ -4,7 +4,6 @@
 ## 2.1 Overview
 
 
-
 ## 2.3 Similarity
 
 欧式距离、曼哈顿距离、余弦距离、相关系数这些easy的就不说了
@@ -82,11 +81,11 @@ OpenCV: [EMD](https://docs.opencv.org/3.0-beta/modules/imgproc/doc/histograms.ht
 
 #### Article
 
-- [向量相似度度量（一）：EMD](https://blog.csdn.net/wangdonggg/article/details/32329879)
+- [向量相似度度量（一）：EMD - 2014](https://blog.csdn.net/wangdonggg/article/details/32329879)
   
-- [向量相似度度量（二）：EMD的MATLAB对照实现](https://blog.csdn.net/wangdonggg/article/details/32691445)
+- [向量相似度度量（二）：EMD的MATLAB对照实现 - 2014](https://blog.csdn.net/wangdonggg/article/details/32691445)
   
-- [向量相似度度量（三）：科普-为什么度量方式很重要](https://blog.csdn.net/wangdonggg/article/details/35280735)
+- [向量相似度度量（三）：科普-为什么度量方式很重要 - 2014](https://blog.csdn.net/wangdonggg/article/details/35280735)
 
 
 ### 2.3.2 Simhash
@@ -110,7 +109,7 @@ LSH：即局部敏感哈希，用于海量高维数据的近似最近邻快速�
 
 #### Article
 
-- [局部敏感哈希(Locality-Sensitive Hashing, LSH)方法介绍](https://www.cnblogs.com/wt869054461/p/8148940.html)
+- [局部敏感哈希(Locality-Sensitive Hashing, LSH)方法介绍 - 2017](https://www.cnblogs.com/wt869054461/p/8148940.html)
 
 
 ## 2.4 Information Theory
@@ -119,15 +118,15 @@ LSH：即局部敏感哈希，用于海量高维数据的近似最近邻快速�
 
 #### Article
 
-- 【Great】[Visual Information Theory](http://colah.github.io/posts/2015-09-Visual-Information/)
+- 【Great】[Visual Information Theory - 2015](http://colah.github.io/posts/2015-09-Visual-Information/)
 
     可视化信息理论，如交叉熵等！
 
-- [机器学习笔记十：各种熵总结](https://blog.csdn.net/xierhacker/article/details/53463567)
+- [机器学习笔记十：各种熵总结 - 2017](https://blog.csdn.net/xierhacker/article/details/53463567)
 
 #### KL Divergence
 
-- [Kullback-Leibler Divergence Explained](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
+- [Kullback-Leibler Divergence Explained - 2017](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
 
 
 ## 2.5 SVD
