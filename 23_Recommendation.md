@@ -13,6 +13,10 @@
 
     深度学习在推荐系统中的应用及论文小结。
 
+#### Article
+
+- [图解抖音推荐算法 - 2019](https://mp.weixin.qq.com/s?__biz=MzA5ODUxOTA5Mg==&mid=2652570700&idx=3&sn=271d687968ef39cceac2b1436094ccc9)
+
 
 ## 23.2 Famous
 

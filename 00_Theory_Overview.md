@@ -5,9 +5,13 @@
 
 #### Paper
 
-- [Machine Learning Testing: Survey, Landscapes and Horizons - 2019](https://arxiv.org/abs/1906.10742)
+- [Machine Learning Testing: Survey, Landscapes and Horizons - UCL2019](https://arxiv.org/abs/1906.10742)
 
     综述文章：对机器学习测试ML Testing研究进行了综合概述，包含128篇论文。
+
+- [Causality for Machine Learning - Germany2019](https://arxiv.org/abs/1911.10500)
+
+    **Chinese**: [这篇长论文全面解读机器学习中的因果关系](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650775733&idx=1&sn=a88001d140e2a2041e202b5fdc24623f)
 
 
 #### Code
