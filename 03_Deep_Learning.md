@@ -387,6 +387,8 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 
 - [神经网络优化算法：Dropout、梯度消失/爆炸、Adam优化算法，一篇就够了！- 2019](https://zhuanlan.zhihu.com/p/78854514)
 
+- [在深度学习模型的优化上，梯度下降并非唯一的选择 - 2019](https://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&mid=2247490838&idx=3&sn=eb2d9807406d7ef3aabfb6eea8ab3515)
+
 
 ### 3.9.2 Adam
 
