@@ -33,6 +33,22 @@
 
 #### Article
 
+- [机器学习笔记（七）Boost算法（GDBT,AdaBoost，XGBoost）原理及实践 - 2017](https://blog.csdn.net/sinat_22594309/article/details/60957594)
+
+    **YAO**:
+
+    因为是加性模型$J=\sum L(y_i, f_{m-1}(x) + b(x;\gamma_m))$
+    
+    - 自然而然可以想到，若让损失函数最小化，让$b(x;\gamma_m)$为L对当前模型$f_{m-1}$的负梯度，损失函数不就最快下降了嘛，即：
+
+        $b(x;\gamma_m) = -\lambda \partial L(y_i, f_{m-1}) / \partial f$
+
+    - 对于XGBoost，对L泰勒展开到二阶项为：$L = L(y_i,f_{m-1}) + g_ib(x) + h_ib^2(x)/2$，其中，$g_i = \partial L(y_i,f_{m-1})/\partial f$，$h_i = \partial^2 L(y_i, f_{m-1})/\partial f^2$
+
+        因为基模型是决策树，所以$b(x;\gamma_m) = \sum w_jI(x \in R_j)$，代入上式L及其正则项，对$w_j$求导为0可得$w_j=-G_j/(H_j + \lambda)$，其中$G_j = \sum g_i$，$H_j = \sum h_i$
+
+        把$w_j$代入原式子就把当前步的损失函数变成了只与上一步相关的一个新的损失函数，然后遍历数据中所有分割点，寻找新的损失函数下降最多的分割点，不断重复上述操作。
+
 - [RF、GBDT、XGBoost面试级整理 - 2018](https://blog.csdn.net/meyh0x5vdtk48p2/article/details/79276307)
 
 - [Understanding Machine Learning: XGBoost - 2017](https://blogs.ancestry.com/ancestry/2017/12/18/understanding-machine-learning-xgboost/)

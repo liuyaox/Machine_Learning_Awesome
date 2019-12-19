@@ -36,6 +36,14 @@
 
     **Chinese**: [HyperparameterHunter 3.0：一文教你学会自动化特征工程 - 2019](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650768854&idx=4&sn=f5c6ba9f90e19352ededc43187014b0d)
 
+#### Book
+
+- 【Great】[特征工程入门与实践 - 2019](https://www.ituring.com.cn/book/2606)
+
+       超级赞，有时间一定要好好看看，练就扎实的基本功！
+
+       **Github**: <https://github.com/PacktPublishing/Feature-Engineering-Made-Easy>
+
 
 ## 11.2 Imbalanced Data
 
