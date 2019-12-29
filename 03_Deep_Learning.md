@@ -126,7 +126,7 @@
 
 #### Article
 
-- [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- [Understanding LSTM Networks - 2015](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
 - [Deep Learning for NLP Best Practices blog](http://ruder.io/deep-learning-nlp-best-practices/)
 
@@ -213,6 +213,10 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 - [你看到的最直白清晰的，神经网络中的反向传播法讲解 - 2018](https://blog.csdn.net/meyh0x5vDTk48P2/article/details/79124757)
 
 - [你真的理解反向传播吗 - 2019](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247492079&idx=4&sn=5fb740d5324e1b1c3dec83fd8599196a)
+
+- [为什么会有梯度爆炸和梯度消失？ - 2019](https://www.zhihu.com/question/290392414/answer/951298995)
+
+    **YAO**: 每层神经网络大体是一次矩阵乘法+一次激活函数：$h_{t+1}=\sigma (Wh_t)$，这样基于**求导的链式法则**，$\partial h_{t+1}/\partial h_t=\sigma ^`(Wh_t)W$，第一项小于1，第二项可大于1也可小于1，两者相乘有时会有收缩效果，有时会有扩张效果，前者导致梯度消失，后者导致梯度爆炸。
 
 
 ## 3.6 Activation
