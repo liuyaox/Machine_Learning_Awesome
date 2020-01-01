@@ -264,6 +264,16 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 有学者将当前最优的两类CNN结合不同的激活函数在CIFAR-10,CIFAR-100和NDSB数据集上做实验，评价四种激活函数的优劣。 实验结果表明Leaky ReLU取较大的alpha准确率更好。Parametric ReLU很容易在小数据集上过拟合（训练集上错误率最低，测试集上不理想），但依然比ReLU好。RReLU效果较好，实验表明它可以克服模型过拟合，这可能由于alpha选择的随机性。在实践中， Parametric ReLU 和 Randomized ReLU 都是可取的。
 
 
+### 3.6.3 GELU
+
+[Gaussian Error Linear Units - UCB2016](https://arxiv.org/abs/1606.08415)
+
+#### Article
+
+- [超越ReLU却鲜为人知，3年后被挖掘：BERT、GPT-2等都在用的激活函数 - 2019](https://mp.weixin.qq.com/s/xEau6wTtB4a9GT6HgPIRNQ)
+
+
+
 ## 3.7 Loss Function
 
 #### Paper
