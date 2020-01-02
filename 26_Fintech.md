@@ -47,3 +47,8 @@
 
     **Article**: [用户贷款风险预测之Top10初体验](https://blog.csdn.net/sb19931201/article/details/56315689)
 
+
+#### Article
+
+- [风控特征—时间滑窗统计特征体系 - 2019](https://mp.weixin.qq.com/s?__biz=MzIwODI2NDkxNQ==&mid=2247487173&idx=5&sn=2dbd43aa6396aaef14499f40b31061a7)
+

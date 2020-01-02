@@ -250,6 +250,8 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 
 - [请问人工神经网络中的activation function的作用具体是什么？为什么ReLu要好过于tanh和sigmoid function?](https://www.zhihu.com/question/29021768)
 
+- [神经网络激励函数的作用是什么？有没有形象的解释？ - 2016](https://www.zhihu.com/question/22334626)
+
 
 ### 3.6.2 ReLU
 
@@ -508,4 +510,7 @@ Xavier Initialization is better for tanh and sigmoid, and He Initialization is b
 #### Article
 
 - [机器学习中端到端学习的本质是什么？有什么优缺点？](https://www.zhihu.com/question/349900338)
+
+- [深度学习环境配置有哪些坑？ - 2019](https://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&mid=2247490876&idx=5&sn=69c0a904542967d4f97f0a859e6ebcca)
+
 

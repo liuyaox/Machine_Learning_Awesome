@@ -17,6 +17,9 @@ Course: <https://www.coursera.org/specializations/probabilistic-graphical-models
 
     **YAO**: OK  内容吸引进了5.3、5.4、5.5章节里，另外有特征函数实例可供参考。
 
+- [非常详细的有向图模型与无向图模型原理总结 - 2019](https://mp.weixin.qq.com/s?__biz=MzU0MDQ1NjAzNg==&mid=2247488315&idx=1&sn=e32ff686e3f2d0f8b6d42ef62a53f769)
+
+
 ### Book
 
 - [Handbook of Graphical Models](https://stat.ethz.ch/~maathuis/papers/Handbook.pdf)

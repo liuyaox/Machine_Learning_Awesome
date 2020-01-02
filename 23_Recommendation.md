@@ -17,6 +17,8 @@
 
 - [图解抖音推荐算法 - 2019](https://mp.weixin.qq.com/s?__biz=MzA5ODUxOTA5Mg==&mid=2652570700&idx=3&sn=271d687968ef39cceac2b1436094ccc9)
 
+- [用户行为序列推荐模型 - 2019](https://mp.weixin.qq.com/s?__biz=MzU1NTMyOTI4Mw==&mid=2247496007&idx=1&sn=c0e0d603533c69a66d8ff93b54396ebd)
+
 
 ## 23.2 Famous
 
