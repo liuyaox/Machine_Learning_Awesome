@@ -238,6 +238,10 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 
 - [从ReLU到Sinc，26种神经网络激活函数可视化 - 2017](http://www.dataguru.cn/article-12255-1.html)
 
+- [Neural Networks: Feedforward and Backpropagation Explained & Optimization](https://mlfromscratch.com/neural-networks-explained/#/)
+
+    **Chinese**: [从ReLU到GELU，一文概览神经网络的激活函数 - 2019](https://mp.weixin.qq.com/s/MLZ4vJjl6oXWCQn-UZ7brg)
+
 - [Visualising Activation Functions in Neural Networks](https://dashee87.github.io/deep%20learning/visualising-activation-functions-in-neural-networks/)
 
     **Chinese**: [26种神经网络激活函数可视化 - 2017](https://www.jiqizhixin.com/articles/2017-10-10-3)
