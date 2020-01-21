@@ -163,6 +163,8 @@ MEMM讨论最多的是标注偏置问题，……，MEMM倾向于选择拥有更
 
 #### Concept
 
+注意，以下说法是纯粹对CRF的描述，若想直接了解RNN+CRF，可能略有不同，建议直接参考下面的Code部分
+
 Y1 --- Y2 --- Y3 --- ... --- Yn
 | /  \ | /  \ | /          \ |
 X1     X2     X3             Xn
@@ -193,9 +195,11 @@ $$P(Y|X)=softmax(score(Y|X))$$
 
 另外，由特征函数$f_j(X, i, Y_i, Y_{i-1})$可看出：
 
-- **CRF没有观测值独立假设**：$i$与整个$X$相关（而非$X_i$, $X_{i-1}$之类的）
+- **CRF没有观测值独立假设**：$i$与整个$X$相关（而非$X_i$, $X_{i-1}$之类的），表现在函数中的(X, i)
 
-- **CRF有马尔可夫假设**：$i$只与$Y_i$和$Y_{i-1}$相关
+- **CRF有马尔可夫假设**：$i$只与$Y_i$和$Y_{i-1}$相关，表现在函数中的(i, Y_i, Y_{i-1})
+
+HMM VS CRF：两者都有**马尔可夫假设(状态$Y_i$只与$Y_{i-1}$相关)**，前者还有观测值独立假设，后者不需要这个假设。
 
 #### Learning
 
@@ -215,13 +219,51 @@ $$P(Y|X)=softmax(score(Y|X))$$
 
 ### Code
 
-- <https://github.com/keras-team/keras-contrib/blob/382f6a2b7739064a1281c1cacdb792bb96436f27/keras_contrib/layers/crf.py> (Keras)
+- <https://github.com/keras-team/keras-contrib/blob/master/keras_contrib/layers/crf.py> (Keras)
 
-    Keras_contrib实现的CRF，详情请参考：[Keras Others](https://github.com/liuyaox/coding_awesome/blob/master/Keras/05-Keras_Others.md)
+    Keras_contrib中的CRF，详情请参考：[Keras Others](https://github.com/liuyaox/coding_awesome/blob/master/Keras/05-Keras_Others.md)
 
-- <https://pytorch.org/tutorials/beginner/nlp/advanced_tutorial.html> (PyTorch)
+    - [CRF Accuracy](https://github.com/keras-team/keras-contrib/blob/master/keras_contrib/metrics/crf_accuracies.py)
+
+    y_true和y_pred，会在每一桢timestep上都进行对比，以计算准确率
+
+    ```python
+    # y: <n_samples, n_timesteps, n_labels>   sparse_target=False
+    accuracy = K.mean(K.equal(K.argmax(y_true, -1), K.argmax(y_pred, -1)))
+    # y: <n_samples, n_timesteps, 1>   sparse_target=True
+    accuracy = K.mean(K.equal(y_true[:, :, 0], y_pred[:, :, 0]))
+    ```
+
+    - [CRF Loss](https://github.com/keras-team/keras-contrib/blob/master/keras_contrib/losses/crf_losses.py)
+
+    **TODO**: 详细定义是啥？需要仔细研究！参考下面2个项目
+
+- 【Great】[简明条件随机场CRF介绍（附带纯Keras实现）- 2018](https://zhuanlan.zhihu.com/p/37163081)
+
+    **YAO**: 代码建议参考下面的'PyTorch官方实现的CRF'，两者配合着看，效果更好！
+
+    CRF在模型输出端**显式地考虑输出之间的关联**，另外它是以路径为单位，考虑的是路径的概率。而非CRF时，意味着将这种关联放在了模型的编码层面，希望模型能自己学到这些关联，有时会“强模型所难”
+
+    Softmax VS CRF : 前者把序列标注看成是**n个k分类**问题，关注的分别是n个点，各点之间无前后关联；后者将序列标注看成是**1个k^n分类**问题，它关注的是n个点及其前后关联，即一条路径(n个点，共有k^n种路径)
+
+    CRF的Loss包括2部分：归一化因子logZ(x)-目标序列的得分f，两者共同需要的是**Transition概率矩阵G和Emission概率矩阵H，其中G是模型CRF层待学习的参数，H是模型RNN层的编码输出**，这一点是关键，需要重点理解！
+
+    - logZ(x): 一条路径得分的状态转移方程是$Z_{t+1}^(i)=(Z_t^(1)G_1i+Z_t^(2)G_2i+...+Z_t^(k)G_ki)H_{t+1)(i|x)$，使用动态规划可算出所有路径得分之和
+
+    - 目标序列得分f: 由各timestep的小积分相加而得，小积分包括2部分，Transition概率$g(y_k,y_{k+1})$和Emission概率$h(y_{k+1};x)$，分别来自于G和H
+
+    解码应用：使用动态规划+Viterbi算法
+
+- 【Great】<https://pytorch.org/tutorials/beginner/nlp/advanced_tutorial.html> (PyTorch)
 
     PyTorch官方实现的CRF
+
+    **Github**: <https://github.com/pytorch/tutorials/blob/master/beginner_source/nlp/advanced_tutorial.py>
+
+**NOTE**: 综合以上2个项目，得出LSTM+CRF中的CRF的Loss和forward
+
+![](./image/CRF_Loss.png)
+
 
 ### Article
 
@@ -257,16 +299,6 @@ $$P(Y|X)=softmax(score(Y|X))$$
 
 - [条件随机场CRF(三) 模型学习与维特比算法解码 - 2017](https://www.cnblogs.com/pinard/p/7068574.html)
 
-### Practice
-
-- 【Great】[简明条件随机场CRF介绍（附带纯Keras实现）- 2018](https://zhuanlan.zhihu.com/p/37163081)
-
-    **YAO**: HERE HERE HERE HERE HERE
-
-    Softmax VS CRF : 前者把序列标注看成是**n个k分类**问题，关注的分别是n个点，各点之间无前后关联；后者将序列标注看成是**1个k^n分类**问题，它关注的n个点及其前后关联，即一条路径(n个点，共有k^n种路径)。
-
-    HMM VS CRF：两者都有**马尔可夫假设(状态$Y_i$只与$Y_{i-1}$相关)**，前者还有观测值独立假设，后者不需要这个假设。
-
 
 ## 4.6 MEM, and Others
 
@@ -274,8 +306,6 @@ MEM: Maximum Entropy Model
 
 
 ## 4.7 Expectation-Maximization (EM)
-
-
 
 #### Article
 

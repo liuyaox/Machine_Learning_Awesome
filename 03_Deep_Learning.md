@@ -216,7 +216,7 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 
 - [为什么会有梯度爆炸和梯度消失？ - 2019](https://www.zhihu.com/question/290392414/answer/951298995)
 
-    **YAO**: 每层神经网络大体是一次矩阵乘法+一次激活函数：$h_{t+1}=\sigma (Wh_t)$，这样基于**求导的链式法则**，$\partial h_{t+1}/\partial h_t=\sigma ^`(Wh_t)W$，第一项小于1，第二项可大于1也可小于1，两者相乘有时会有收缩效果，有时会有扩张效果，前者导致梯度消失，后者导致梯度爆炸。
+    **YAO**: 每层神经网络大体是一次矩阵乘法+一次激活函数：$h_{t+1}=\sigma (Wh_t)$，这样基于**求导的链式法则**，$\partial h_{t+1}/\partial h_t=\sigma ^`(Wh_t)W$，第一项小于1，第二项可大于1也可小于1，两者相乘有时会有收缩效果，有时会有扩张效果，前者导致梯度消失，后者导致梯度爆炸。梯度消失或爆炸并非仅仅与激活函数有关，更与权重W有关。梯度消失的后果是无法有效完成深层网络的训练。
 
 
 ## 3.6 Activation
@@ -231,12 +231,15 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 
     **Chinese**: [21种NLP任务激活函数大比拼：你一定猜不到谁赢了](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650756158&idx=2&sn=90cb49c49be078e7406539eb93561c9e)
 
-
 #### Article
 
 - [聊一聊深度学习的activation function - 2017](https://zhuanlan.zhihu.com/p/25110450)
 
-- [从ReLU到Sinc，26种神经网络激活函数可视化 - 2017](http://www.dataguru.cn/article-12255-1.html)
+    **YAO**：OK   其他内容在下一Article的YAO摘要里
+    
+    正是由于激活函数这些非线性函数的反复叠加，使得神经网络有足够的capacity来抓取复杂的Pattern，可以逼近任意函数。
+    
+    推荐优先使用ReLU，同时注意初始化和学习率的设置，不建议使用Tahn(?)，尤其是Sigmoid。
 
 - [Neural Networks: Feedforward and Backpropagation Explained & Optimization](https://mlfromscratch.com/neural-networks-explained/#/)
 
@@ -246,15 +249,59 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 
     **Chinese**: [26种神经网络激活函数可视化 - 2017](https://www.jiqizhixin.com/articles/2017-10-10-3)
 
-- [ReLu(Rectified Linear Units)激活函数 - 2015](https://www.cnblogs.com/neopenx/p/4453161.html)
+    **YAO**：OK   以上2个Article的汇总
+
+    Identity: 线性，不可单独使用，可在最终输出节点上作为激活函数用于回归任务
+
+    **Sigmoid**: 刚开始时很流行，后来在分类任务中，正逐渐被Tanh或Log Log取代，缺点如下：
+    
+    - 容易Gradient Vanishing: 对于sigmoid，x较大或较小时，导数接近0，导数最大值只是0.25，意味着导数通过n层后至少会压缩为原来的1/4^n
+    - 函数输出不是zero-centered: 导致模型训练收敛速度变慢。训练深度学习模型尽量使用zero-centered的输入和函数输出
+    - 幂运算相对耗时：相对ReLU的thresholding而言
+
+    Hard Sigmoid: Sigmoid的分段线性近似，比如x<=-2时是y=0的水平线，x>=2时也是水平线，介于中间是导数固定的斜线
+
+    **Tanh**: 具有神经网络所钟爱的很多特征，完全可微分、反对称、原点对称，在分类任务中，逐渐取代Sigmoid。其优缺点如下：
+
+    - 解决了zero-centered输出的问题
+    - Gradient Vanishing和幂运算问题仍然存在
+
+    Hard Tanh: Tanh的分段线性近似，比如x<=-1或x>=1是水平线，介于中间是导数固定的斜线，原点对称
+
+    **ReLU**: 修正LU(线性单元)，保留了Step函数的生物学启发（只有输入超出阈值时神经元才激活：基于输入信号做门控决策），缺点是负值输入时梯度为零，学习速度很慢，甚至使神经元直接无效。
+    
+    - 优点有四：
+
+      - 数学理论上解决了Gradient Vanishing的问题
+      - 计算速度非常快，只需判断输入是否大于0
+      - 收敛速度远快于sigmoid和tanh，虽然输出不是zero-centered
+      - ReLU会使一些神经元的输出为0，造成了网络的稀疏性，减少了参数的相互依存，缓解了过拟合（存疑？）
+
+    - 缺点是Dead ReLU Problem，即某些神经元可能永远不会激活，相应的参数永远不被更新。原因有二，一是错误的参数初始化(比较少见)，二是学习率太高导致参数更新太大，使网络进入这种状态。解决方法有二，一是采用Xavier初始化，避免将学习率设置太大，二是使用adagrad等自动调节学习率的算法。
+
+    - 3个ReLU的变体，共同点是为负值输入添加一个线性项，目的是为了改善Dead ReLU Problem
+
+        - Leaky ReLU: 泄露ReLU，线性项有较小的固定的导数，能减少静默神经元的出现，允许基于梯度的学习（虽然会很慢）
+        - PReLU: 参数化ReLU，线性项的导数是在模型训练时学习得到的
+        - RReLU: 随机Leaky ReLU，线性项的导数在每个节点上都是随机分配的（通常服从均匀分布）
+
+    - 其他变体：ELU(指数LU，与上面不同，它为负值输入添加一个负指数项，导数收敛为零)，变体有SELU, SReLU
+
+    Log Log: f(x)=1-exp(-exp(x))，有潜力替换经典的Sigmoid，该函数饱和更快，且零点值高于0.5
+
+    **YAO**: Keras中CNN系列和Dense的默认激活函数都是Identity，实际应用中推荐优先使用ReLU？？？RNN系列的默认激活函数都是Tanh
 
 - [Softmax](http://neuralnetworksanddeeplearning.com/chap3.html#softmax)
 
 - [Understanding Activation Functions in Deep Learning - 2017](https://www.learnopencv.com/understanding-activation-functions-in-deep-learning/)
 
-- [请问人工神经网络中的activation function的作用具体是什么？为什么ReLu要好过于tanh和sigmoid function?](https://www.zhihu.com/question/29021768)
+    **YAO**:
+
+    SWISH: $\sigma (x)=x*sigmoid(x)$，某Paper说要比ReLU效果好
 
 - [神经网络激励函数的作用是什么？有没有形象的解释？ - 2016](https://www.zhihu.com/question/22334626)
+
+- [谈谈激活函数Zero-Centered的问题 - 2018](https://liam0205.me/2018/04/17/zero-centered-active-function/)
 
 
 ### 3.6.2 ReLU
@@ -269,6 +316,14 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 
 有学者将当前最优的两类CNN结合不同的激活函数在CIFAR-10,CIFAR-100和NDSB数据集上做实验，评价四种激活函数的优劣。 实验结果表明Leaky ReLU取较大的alpha准确率更好。Parametric ReLU很容易在小数据集上过拟合（训练集上错误率最低，测试集上不理想），但依然比ReLU好。RReLU效果较好，实验表明它可以克服模型过拟合，这可能由于alpha选择的随机性。在实践中， Parametric ReLU 和 Randomized ReLU 都是可取的。
 
+#### Article
+
+- [ReLu(Rectified Linear Units)激活函数 - 2015](https://www.cnblogs.com/neopenx/p/4453161.html)
+
+- [为什么ReLU比Sigmoid在很多场合都要结果好 - 2018](https://zhuanlan.zhihu.com/p/30087747)
+
+- [人工神经网络中的activation function的作用具体是什么？为什么ReLu要好过于tanh和sigmoid?](https://www.zhihu.com/question/29021768)
+
 
 ### 3.6.3 GELU
 
@@ -277,7 +332,6 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 #### Article
 
 - [超越ReLU却鲜为人知，3年后被挖掘：BERT、GPT-2等都在用的激活函数 - 2019](https://mp.weixin.qq.com/s/xEau6wTtB4a9GT6HgPIRNQ)
-
 
 
 ## 3.7 Loss Function
@@ -294,7 +348,55 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 
 #### Article
 
-- [PyTorch中十九种损失函数，你能认识几个？](https://mp.weixin.qq.com/s?__biz=MzI3ODgwODA2MA==&mid=2247487076&idx=1&sn=cb7844e2e0b2d82cbb15db4ecf906e3a)
+- [PyTorch Official API: Loss Functions](https://pytorch.org/docs/stable/nn.html#loss-functions)
+
+    **YAO**: OK
+
+    通用参数：reduce和reduction，一般损失函数都是直接计算batch的数据，返回的Loss结果是维度为<batch_size, >的向量L
+
+    - reduce=False: reduction无效，返回L
+    - reduce=True: 若reduction='mean'，返回mean(L)，若reduction='sum'，返回sum(L); 默认值是reduce=True, reduction='mean'
+    
+    回归：
+
+    - L1Loss: L1范数损失，MAE损失
+    - MSELoss: 均方误差损失
+    - SmoothL1Loss: 又叫Huber Loss，分段函数，delta=y1-y0，loss=delta^2/2 if |delta|<1 else |delta|-0.5，所以相对于MSELoss，对outliers没那么敏感
+    
+    二分类：
+    
+    - BCELoss: 二进制交叉熵损失，不自带sigmoid，需要额外添加
+    - BCEWithLogitsLoss: = Sigmoid + BCELoss，合并了两者，比两者分别单独时在数值上更稳定，因为合并后可利用log-sum-exp技巧
+    - SoftMarginLoss: 二分类的Logistic损失
+
+    多分类：支持不均衡数据的各类别权重分配
+    
+    - NLLLoss: 负对数似然损失，不自带LogSoftmax，
+    - CrossEntropyLoss: = LogSoftmax + NLLLoss，交叉熵损失
+    - MultiMarginLoss: 多分类的Hinge损失  # TODO 与上面2个的区别？？？ SVM Loss？？
+
+    多标签分类：
+
+    - MultiLabelMarginLoss: MultiMarginLoss在多标签任务上的拓展  # TODO 用于多标签多分类 ？？？注意PyTorch API文档略微有点坑？
+    - MultiLabelSoftMarginLoss: # TODO 同MultiLableMarginLoss，区别在于y的类型是FloatTensor？？？
+
+    序列标注：
+
+    - CTCLoss：连接时序分类，处理连接非对齐的时间序列数据，主要是解决Label和Output不对齐的问题，优点是不用强制对齐Label且Label可变长，仅需输入序列和监督标签序列即可训练，主要应用于场景文本识别、语音识别、手写识别等。不自带LogSoftmax，需要额外添加
+
+    排序：
+
+    - MarginRankingLoss: 用于Pairwise排序，对于<x1, x2, y>, y=1表示x1>x2，y=-1表示x1<x2。 # TODO 或者说，用于评估相似度的？
+
+    匹配：
+
+    - HingeEmbeddingLoss: 用于Pairwise相似度计算，对于<x, y>，y取值1或-1，x表示2个输入的曼哈顿距离
+    - CosineEmbeddingLoss: 用于Pairwise相似度计算，对于<x1, x2, y>，y取值1或-1，x表示2个输入的Cosine距离
+
+    其他
+    
+    - KLDivLoss: KL散度损失，不自带Logits
+    - TripletMarginLoss: 三元组Loss，对于<x1, x2, x3>，对于度量样本间的相对相似度
 
 - [从最优化的角度看待Softmax损失函数 - 2019](https://zhuanlan.zhihu.com/p/45014864)
 
@@ -356,13 +458,9 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 - [Dropout可能要换了，Hinton等研究者提出神似剪枝的Targeted Dropout](http://www.sohu.com/a/277688850_129720)
 
 
-### 3.8.4 Batch Normalization
+### 3.8.4 Normalization
 
-- Layer Normalization: [Layer Normalization - Toronto2016](https://arxiv.org/abs/1607.06450)
-
-    **Code**: <https://github.com/CyberZHG/keras-layer-normalization> (Keras)
-
-- BatchNormalization: [Batch Normalization Accelerating Deep Network Training by Reducing Internal Covariate Shift - Google2015](https://arxiv.org/abs/1502.03167)
+- BatchNormalization: [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift - Google2015](https://arxiv.org/abs/1502.03167)
 
 - ReNorm: [Batch Renormalization: Towards Reducing Minibatch Dependence in Batch-Normalized Models - Google2017](https://arxiv.org/abs/1702.03275)
 
@@ -375,6 +473,10 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 - SwitchableNorm: [Differentiable Learning-to-Normalize via Switchable Normalization - CUHK2019](https://arxiv.org/abs/1806.10779)
 
     SwitchableNorm算法是将BN算法、LN算法、IN算法结合起来使用，并为每个算法都赋予权重，让网络自己去学习归一化层应该使用什么方法。
+
+- Layer Normalization: [Layer Normalization - Toronto2016](https://arxiv.org/abs/1607.06450)
+
+    **Code**: <https://github.com/CyberZHG/keras-layer-normalization> (Keras)
 
 - [Regularization and Optimization strategies in Deep Convolutional Neural Network - Nanyang2017](https://arxiv.org/abs/1712.04711)
 
