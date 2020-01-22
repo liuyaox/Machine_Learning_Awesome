@@ -495,7 +495,7 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 
 #### Article
 
-- [An overview of gradient descent optimization algorithms - 2016](http://ruder.io/optimizing-gradient-descent/index.html)
+- 【Great】[An overview of gradient descent optimization algorithms - 2016~2018](http://ruder.io/optimizing-gradient-descent/index.html)
 
 - [2017年深度学习优化算法最新综述 - 2017](https://www.fengiling.com/blog/view/?id=734522)
 
