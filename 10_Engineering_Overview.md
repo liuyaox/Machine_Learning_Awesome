@@ -8,6 +8,11 @@
 
     **YAO**: 完整展示了算法项目的流程及各种细节，强烈建议过一遍！！！
 
+- 【Great】<https://github.com/chiphuyen/machine-learning-systems-design>
+
+    A booklet on machine learning systems design with exercises
+
+    **Article**: [一日千星的「机器学习系统设计指南」，这个英伟达小姐姐的项目火了](https://mp.weixin.qq.com/s/X_LSll_u-KmD4Wd2Se9LWA)
 
 #### Article
 

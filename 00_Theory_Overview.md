@@ -14,13 +14,17 @@
     **Chinese**: [这篇长论文全面解读机器学习中的因果关系](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650775733&idx=1&sn=a88001d140e2a2041e202b5fdc24623f)
 
 
-#### Code
+#### Github
 
 - [机器学习全流程笔记](https://machine-learning-course.readthedocs.io/en/latest/)
 
     既有理论知识，也有代码实现，包括 Github 热榜 Top3
 
     Github: <https://github.com/machinelearningmindset/machine-learning-course> (Python, sklearn, Tensorflow)
+
+- <https://github.com/jwasham/coding-interview-university>
+
+    A complete computer science study plan to become a software engineer.
 
 - <https://github.com/trekhleb/homemade-machine-learning>
 
@@ -76,6 +80,9 @@
 
     《统计学习方法》的代码实现
 
+- <https://github.com/datawhalechina/pumpkin-book>
+
+    《机器学习》（西瓜书）公式推导解析
 
 #### Article
 

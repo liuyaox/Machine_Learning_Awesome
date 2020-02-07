@@ -171,7 +171,7 @@ X1     X2     X3             Xn
 
 注意：Y之间，Y与X之间无方向
 
-HMM是**生成式**模型，是在**拟合联合概率分布$P(Y,X)$**，而CRF是**判别式**模型，直接**拟合后验概率$(Y|X)$**
+HMM是**生成式**模型，是在**拟合联合概率分布$P(Y,X)$**，而CRF是**判别式**模型，直接**拟合条件概率$(Y|X)$**
 
 以序列标注POS为例：
 
@@ -225,7 +225,7 @@ HMM VS CRF：两者都有**马尔可夫假设(状态$Y_i$只与$Y_{i-1}$相关)*
 
     - [CRF Accuracy](https://github.com/keras-team/keras-contrib/blob/master/keras_contrib/metrics/crf_accuracies.py)
 
-    y_true和y_pred，会在每一桢timestep上都进行对比，以计算准确率
+    y_true和y_pred在每个sample的每一桢timestep上都进行对比，以计算平均准确率
 
     ```python
     # y: <n_samples, n_timesteps, n_labels>   sparse_target=False
@@ -248,11 +248,11 @@ HMM VS CRF：两者都有**马尔可夫假设(状态$Y_i$只与$Y_{i-1}$相关)*
 
     CRF的Loss包括2部分：归一化因子logZ(x)-目标序列的得分f，两者共同需要的是**Transition概率矩阵G和Emission概率矩阵H，其中G是模型CRF层待学习的参数，H是模型RNN层的编码输出**，这一点是关键，需要重点理解！
 
-    - logZ(x): 一条路径得分的状态转移方程是$Z_{t+1}^(i)=(Z_t^(1)G_1i+Z_t^(2)G_2i+...+Z_t^(k)G_ki)H_{t+1)(i|x)$，使用动态规划可算出所有路径得分之和
+    - logZ(x): 一条路径得分的状态转移方程是$Z_{t+1}^i=(Z_t^1G_{1i}+Z_t^2G_{2i}+...+Z_t^kG_{ki})H_{t+1}(i|x)$，可知共有3部分组成：$Z_t$表示上一步状态，$G_{.i}$表示转移概率，$H_{t+1}$表示发射概率，使用动态规划可算出所有路径得分之和，详见下面NOTE
 
     - 目标序列得分f: 由各timestep的小积分相加而得，小积分包括2部分，Transition概率$g(y_k,y_{k+1})$和Emission概率$h(y_{k+1};x)$，分别来自于G和H
 
-    解码应用：使用动态规划+Viterbi算法
+    解码应用：使用动态规划Viterbi算法
 
 - 【Great】<https://pytorch.org/tutorials/beginner/nlp/advanced_tutorial.html> (PyTorch)
 

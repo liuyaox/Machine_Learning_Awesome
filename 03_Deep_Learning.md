@@ -218,6 +218,14 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 
     **YAO**: 每层神经网络大体是一次矩阵乘法+一次激活函数：$h_{t+1}=\sigma (Wh_t)$，这样基于**求导的链式法则**，$\partial h_{t+1}/\partial h_t=\sigma ^`(Wh_t)W$，第一项小于1，第二项可大于1也可小于1，两者相乘有时会有收缩效果，有时会有扩张效果，前者导致梯度消失，后者导致梯度爆炸。梯度消失或爆炸并非仅仅与激活函数有关，更与权重W有关。梯度消失的后果是无法有效完成深层网络的训练。
 
+- [详解深度学习中的梯度消失、爆炸原因及其解决方法 - 2018](https://zhuanlan.zhihu.com/p/33006526)
+
+    **YAO**: 
+
+    梯度消失：LSTM, ReLU, BatchNormalization, Residual
+
+    梯度爆炸：梯度剪切，权重正则化
+
 
 ## 3.6 Activation
 
@@ -272,7 +280,7 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
     
     - 优点有四：
 
-      - 数学理论上解决了Gradient Vanishing的问题
+      - 数学理论上解决了因激活函数导致的那种Gradient Vanishing问题
       - 计算速度非常快，只需判断输入是否大于0
       - 收敛速度远快于sigmoid和tanh，虽然输出不是zero-centered
       - ReLU会使一些神经元的输出为0，造成了网络的稀疏性，减少了参数的相互依存，缓解了过拟合（存疑？）
@@ -417,6 +425,9 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 
     **Chinese**: [深度学习中的正则化技术概述（附Python+keras实现代码）](https://mp.weixin.qq.com/s?__biz=MzUyOTU2MjE1OA==&mid=2247485921&idx=1&sn=b5a9320c0e7a89679de7695f3406bec7)
 
+    **YAO**:
+
+
 
 ### 3.8.2 L1 & L2
 
@@ -426,6 +437,8 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 
 
 ### 3.8.3 Dropout
+
+有种说法是，有了Dropout，相当于一个N节点的模型，变成了2^N个模型的集合。机理是：消除了网络对一些节点的依赖，增强了泛化能力。类似于生物界中，无性繁殖 VS 有性繁殖
 
 - Dropout: 训练时对神经网络节点进行子采样(有些子节点在向前向后连接时不考虑)，测试时Dropout不使用
 
@@ -573,10 +586,13 @@ Xavier Initialization is better for tanh and sigmoid, and He Initialization is b
 
 - <https://github.com/bojone/Capsule> (Keras)
 
+#### Practice
+
 - <https://github.com/AidenHuen/Capsule-Text-Classification> (Keras)
 
     利用keras搭建的胶囊网络(capsule network文本分类模型，包含RNN、CNN、HAN等)
 
+- <https://github.com/andyweizhao/capsule_text_classification> (Tensorflow)
 
 #### Article
 
