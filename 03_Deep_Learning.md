@@ -65,6 +65,12 @@
 
 - [神经网络多样性的意义何在？既然多层感知机在理论上已经可以拟合任何函数，为什么要有不同的形式？](https://www.zhihu.com/question/342489117)
 
+#### Github
+
+- 【Great】<https://github.com/sladesha/deep_learning>
+
+    工程和学术研究中，一些应用到深度学习的思路和方法整理汇总
+
 
 ## 3.2 CNN
 
