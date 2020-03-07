@@ -605,11 +605,14 @@ Xavier Initialization is better for tanh and sigmoid, and He Initialization is b
 - [揭开迷雾，来一顿美味的Capsule盛宴 - 2018](https://kexue.fm/archives/4819)
 
 
-## 3.12 GAN
+## 3.12 Graph Neural Network
 
-#### Tool
+#### Article
 
-- [GAN Lab: Play with GANs in your browser](https://poloclub.github.io/ganlab/)
+- 从图(Graph)到图卷积(Graph Convolution): 漫谈图神经网络
+
+    [一](https://zhuanlan.zhihu.com/p/108294485), [二](https://zhuanlan.zhihu.com/p/108298787), [三](https://zhuanlan.zhihu.com/p/108299847)
+
 
 
 ## 3.13 Reinforcement Learning
@@ -631,6 +634,11 @@ Xavier Initialization is better for tanh and sigmoid, and He Initialization is b
 - [Ranking Sentences for Extractive Summarization with Reinforcement Learning - Edinburgh2018](https://arxiv.org/abs/1802.08636)
 
     **Chinese**: [基于强化学习的句子摘要排序](https://mp.weixin.qq.com/s?__biz=MzI3ODgwODA2MA==&mid=2247487291&idx=3&sn=5f117067af1b56f5ae7afbfd0aa33ce4)
+
+#### Tool
+
+- [GAN Lab: Play with GANs in your browser](https://poloclub.github.io/ganlab/)
+
 
 
 ## 3.14 Others
