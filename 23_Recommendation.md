@@ -19,6 +19,8 @@
 
 - [用户行为序列推荐模型 - 2019](https://mp.weixin.qq.com/s?__biz=MzU1NTMyOTI4Mw==&mid=2247496007&idx=1&sn=c0e0d603533c69a66d8ff93b54396ebd)
 
+- [Transformer在推荐模型中的应用总结 - 2019](https://zhuanlan.zhihu.com/p/85825460)
+
 
 ## 23.2 Famous
 

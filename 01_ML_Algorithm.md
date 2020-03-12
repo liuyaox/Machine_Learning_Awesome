@@ -9,6 +9,10 @@
 
     整理所学的机器学习算法，并根据自己所理解的样子叙述出来。(注重数学推导)
 
+#### Article
+
+- [90题细品吴恩达《机器学习》，感受被刷题支配的恐惧 - 2020](https://mp.weixin.qq.com/s?__biz=MzIwODI2NDkxNQ==&mid=2247487535&idx=2&sn=7fe066222397006bdabcc8952ecdeae0)
+
 
 ## 1.2 Linear Regression
 

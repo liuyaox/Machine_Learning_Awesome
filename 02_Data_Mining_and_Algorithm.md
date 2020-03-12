@@ -12,6 +12,8 @@
 
 - [概率分布之间的距离度量以及python实现 - 2017](https://www.cnblogs.com/wt869054461/p/7156397.html)
 
+- [机器学习中的「相似度度量」方法及应用 - 2020](https://mp.weixin.qq.com/s?__biz=MzI3ODgwODA2MA==&mid=2247487937&idx=2&sn=c7bea817791d72c8e6c87fe8c59344c2)
+
 
 ### 2.3.1 Histogram & Distribution Similarity
 

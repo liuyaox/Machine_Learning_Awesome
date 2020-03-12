@@ -120,6 +120,8 @@
 
 - [机器学习中有哪些形式简单却很巧妙的idea - 2019](https://www.zhihu.com/question/347847220)
 
+- 【Great】[线性代数的本质及其在AI中的应用 - 2020](https://mp.weixin.qq.com/s?__biz=MzA5ODUxOTA5Mg==&mid=2652572230&idx=1&sn=70053c5d5febab0d4a52305dc3582b43)
+
 
 ## 0.2 Data
 

@@ -9,6 +9,8 @@ Topic modeling is an unsupervised learning method that assumes each document con
 
 - [百度NLP | Familia：开源的中文主题模型应用工具包](http://baijiahao.baidu.com/s?id=1574779177327287)
 
+- [如何找到好的主题模型量化评价指标？这是一份热门方法总结 - 2020](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650779800&idx=3&sn=28837b7d0905359837c1c1bf3061dd7b)
+
 
 ## 5.2 LDA
 

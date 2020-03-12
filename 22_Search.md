@@ -4,6 +4,10 @@
 
 ## 22.1 Overview
 
+#### Data
+
+- [谷歌数据集搜索正式版出炉：全面升级，覆盖2500万数据集 - 2020](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650779244&idx=2&sn=725a1adcf7fffc9ff4e041aaed14d696)
+
 
 ## 22.2 Famous
 
