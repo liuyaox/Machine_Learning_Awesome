@@ -647,13 +647,19 @@ Xavier Initialization is better for tanh and sigmoid, and He Initialization is b
 
 - [常见强化学习方法总结 - 2019](https://zhuanlan.zhihu.com/p/98962807)
 
+## 3.14 Hardware
 
-## 3.14 Others
+#### Article
+
+- [深度学习硬件购买指南 - 2017](https://www.cnblogs.com/wangduo/p/7383860.html)
+
+- [深度学习环境配置有哪些坑？ - 2019](https://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&mid=2247490876&idx=5&sn=69c0a904542967d4f97f0a859e6ebcca)
+
+
+## 3.15 Others
 
 #### Article
 
 - [机器学习中端到端学习的本质是什么？有什么优缺点？](https://www.zhihu.com/question/349900338)
 
-- [深度学习环境配置有哪些坑？ - 2019](https://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&mid=2247490876&idx=5&sn=69c0a904542967d4f97f0a859e6ebcca)
-
-
+- [为什么有些深度学习网络要加入 Product 层 - 2020](https://mp.weixin.qq.com/s/XtnYFabQwEurNQHTAaIf4Q)

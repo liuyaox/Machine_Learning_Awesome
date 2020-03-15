@@ -153,6 +153,17 @@
     **Article**: [Distribution is all you need：这里有12种做ML不可不知的分布](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650770528&idx=4&sn=5ece1d49995b419a114017d26af8cc5b)
 
 
+### 0.3.3 Others
+
+#### Article
+
+- [在统计学中为什么要对变量取对数 - 2017](https://www.zhihu.com/question/22012482)
+
+#### Practice
+
+- [机器学习算法的随机数据生成 - 2016](https://www.cnblogs.com/pinard/p/6047802.html)
+
+
 ## 0.4 Optimization
 
 #### Paper

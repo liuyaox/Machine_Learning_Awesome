@@ -10,6 +10,10 @@
 
     **Chinese**: <http://www.scikit-yb.org/zh/latest/>
 
+#### Tool
+
+- [那些酷炫的深度学习网络图怎么画出来的 - 2019](https://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&mid=2247489458&idx=2&sn=922283a03252d2cf64bbc3d02b24649f)
+
 
 ## 12.2 t-SNE
 
