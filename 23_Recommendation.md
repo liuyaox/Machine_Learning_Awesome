@@ -115,6 +115,8 @@ c. 细节太多，受启发的也太多！
 
 - [Learning Tree-based Deep Model for Recommender Systems - Alibaba2018](https://arxiv.org/abs/1801.02294)
 
+- [“推荐系统”加上“图神经网络” - 2020](https://zhuanlan.zhihu.com/p/114798371)
+
 
 #### Article
 

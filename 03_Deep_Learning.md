@@ -414,6 +414,8 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 
 - [PyTorch的十八个损失函数 - 2020](https://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&mid=2247492349&idx=3&sn=406d5f1422fc659dae6d54b3bb57e84e)
 
+- 【Great】[深度学习的多个loss如何平衡 - 2020](https://www.zhihu.com/question/375794498)
+
 - [从最优化的角度看待Softmax损失函数 - 2019](https://zhuanlan.zhihu.com/p/45014864)
 
 - [Softmax理解之二分类与多分类 - 2019](https://zhuanlan.zhihu.com/p/45368976)

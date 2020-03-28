@@ -128,23 +128,3 @@ For Samples
 
 - [十个技巧，让你成为“降维”专家 - 2019](https://mp.weixin.qq.com/s?__biz=MzIwOTc2MTUyMg==&mid=2247490939&idx=3&sn=d4e3a04c6b94a93c35bc0264bb056213)
 
-
-## 11.6 Data Augmentation
-
-#### Paper
-
-- [EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks - USA2019](https://arxiv.org/abs/1901.11196)
-
-    **Article**: [NLP中一些简单的数据增强技术](https://mp.weixin.qq.com/s?__biz=MjM5ODkzMzMwMQ==&mid=2650411500&idx=2&sn=76e635526015ccecd14a1436bda55e2c)
-
-#### Github
-
-- <https://github.com/quincyliang/nlp-data-augmentation>
-
-    Data Augmentation for NLP. NLP数据增强
-
-#### Article
-
-- [These are the Easiest Data Augmentation Techniques in NLP you can think of — and they work - 2019](https://towardsdatascience.com/these-are-the-easiest-data-augmentation-techniques-in-natural-language-processing-you-can-think-of-88e393fd610)
-
-- [赛尔笔记 | 深度学习领域的数据增强 - 2019](https://mp.weixin.qq.com/s?__biz=MzIxMjAzNDY5Mg==&mid=2650796432&idx=1&sn=6253922c918463e3dbc45abe5e0e57e1)
