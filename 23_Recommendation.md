@@ -21,6 +21,10 @@
 
 - [Transformer在推荐模型中的应用总结 - 2019](https://zhuanlan.zhihu.com/p/85825460)
 
+#### Practice
+
+- <https://github.com/QingqingSUN/YoutubeNet> (Tensorflow)
+
 
 ## 23.2 Famous
 
