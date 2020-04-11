@@ -1,4 +1,3 @@
-
 # 0. Theory Overview
 
 ## 0.1 Overview
@@ -189,7 +188,6 @@
 #### Article
 
 - [面试整理：关于代价函数，正则化 - 2018](https://blog.csdn.net/meyh0x5vdtk48p2/article/details/79752784)
-
 
 
 ## 0.7 Train & Apply
