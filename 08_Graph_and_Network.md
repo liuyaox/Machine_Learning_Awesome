@@ -1,4 +1,6 @@
-# 8. Graph
+# 8. Graph and Network
+
+Attentions: This is about Graph, Network, NOT Image, Picture, Computer Vision, etc.
 
 ## 8.1 Overview
 
@@ -52,3 +54,20 @@ node2vec主要用于处理网络结构中的多分类和链路预测任务，具
 - [关于Node2vec算法中Graph Embedding同质性和结构性的进一步探讨](https://zhuanlan.zhihu.com/p/64756917)
 
 - [node2vec: Embeddings for Graph Data](https://towardsdatascience.com/node2vec-embeddings-for-graph-data-32a866340fef)
+
+
+
+## 8.3 Graph Neural Network
+
+#### Paper
+
+- [Graph convolutional networks: a comprehensive review - 2019](https://link.springer.com/article/10.1186/s40649-019-0069-y)
+
+#### Code
+
+- <https://github.com/tkipf/gcn> (Tensorflow)
+
+#### Article
+
+- 从图(Graph)到图卷积(Graph Convolution): 漫谈图神经网络  [一](https://zhuanlan.zhihu.com/p/108294485), [二](https://zhuanlan.zhihu.com/p/108298787), [三](https://zhuanlan.zhihu.com/p/108299847)
+

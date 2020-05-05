@@ -609,16 +609,6 @@ Xavier Initialization is better for tanh and sigmoid, and He Initialization is b
 - [揭开迷雾，来一顿美味的Capsule盛宴 - 2018](https://kexue.fm/archives/4819)
 
 
-## 3.12 Graph Neural Network
-
-#### Article
-
-- 从图(Graph)到图卷积(Graph Convolution): 漫谈图神经网络
-
-    [一](https://zhuanlan.zhihu.com/p/108294485), [二](https://zhuanlan.zhihu.com/p/108298787), [三](https://zhuanlan.zhihu.com/p/108299847)
-
-
-
 ## 3.13 Reinforcement Learning
 
 #### Code
@@ -648,6 +638,7 @@ Xavier Initialization is better for tanh and sigmoid, and He Initialization is b
 - [83篇文献，万字总结强化学习之路 - 2020](https://mp.weixin.qq.com/s?__biz=MzIwOTc2MTUyMg==&mid=2247496747&idx=3&sn=7a17459e1d07ff0c56e649b5d9cf6b3f)
 
 - [常见强化学习方法总结 - 2019](https://zhuanlan.zhihu.com/p/98962807)
+
 
 ## 3.14 Hardware
 
