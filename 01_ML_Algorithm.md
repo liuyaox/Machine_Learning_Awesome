@@ -78,6 +78,12 @@
 
     **Chinese**: [4种基本聚类算法应如何正确选择？这份攻略值得你收藏](https://mp.weixin.qq.com/s/xCIEWc2KpsjMixXHrzZ1rA)
 
+#### Practice
+
+- [深入浅出聚类算法！如何对王者英雄聚类分析，探索英雄之间的秘密 - 2020](https://mp.weixin.qq.com/s/87tQuHgjB62Gzxu8oTWTXA)
+
+    **Code**: <https://github.com/double-point/machine_learning/tree/master/EM>
+
 
 ## 1.10 Dimensionality Reduction
 

@@ -71,6 +71,10 @@
 
     工程和学术研究中，一些应用到深度学习的思路和方法整理汇总
 
+- <https://github.com/MingchaoZhu/DeepLearning>
+
+    《深度学习》(花书) 数学推导、原理剖析与源码级别代码实现
+
 
 ## 3.2 CNN
 
@@ -83,6 +87,14 @@
 #### Tool
 
 - [3D Visualization of a CNN](http://scs.ryerson.ca/~aharley/vis/conv/)
+
+#### Github
+
+- <https://github.com/poloclub/cnn-explainer>
+
+    Learning CNN with Interactive Visualization
+
+    **Article**: [把整个 CNN 都给可视化了，可交互有细节，每次卷积 ReLU 池化都清清楚楚](https://mp.weixin.qq.com/s/OH3JC5tXkhaY5i1oI6SlIQ)
 
 #### Article
 
@@ -638,6 +650,8 @@ Xavier Initialization is better for tanh and sigmoid, and He Initialization is b
 - [83篇文献，万字总结强化学习之路 - 2020](https://mp.weixin.qq.com/s?__biz=MzIwOTc2MTUyMg==&mid=2247496747&idx=3&sn=7a17459e1d07ff0c56e649b5d9cf6b3f)
 
 - [常见强化学习方法总结 - 2019](https://zhuanlan.zhihu.com/p/98962807)
+
+- [GAN万字长文综述 - 2019](https://zhuanlan.zhihu.com/p/58812258)
 
 
 ## 3.14 Hardware

@@ -14,9 +14,16 @@
 
 - [那些酷炫的深度学习网络图怎么画出来的 - 2019](https://mp.weixin.qq.com/s?__biz=MzI4MDYzNzg4Mw==&mid=2247489458&idx=2&sn=922283a03252d2cf64bbc3d02b24649f)
 
+- [论文画图神器！25个常用Matplotlib图的Python代码 - 2020](https://mp.weixin.qq.com/s/LtpqbCdlnjODk_ijOYNnbA)
+
+- [收下这份来自GitHub的神器，一图搞定Matplotlib！ -2019](https://mp.weixin.qq.com/s/Qn-7ZDbIdrlP88GDTYin5g)
+
+
 
 ## 12.2 t-SNE
 
 #### Article
 
 - [How to Use t-SNE Effectively - 2016](https://distill.pub/2016/misread-tsne/)
+
+

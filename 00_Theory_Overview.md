@@ -33,6 +33,9 @@
 
     Machine Learning in NumPy - 纯 NumPy 编写 Machine Learning 模型算法！惊为天人！
 
+- <https://github.com/Dod-o/Statistical-Learning-Method_Code>
+
+    手写实现李航《统计学习方法》书中全部算法
 
 #### Website
 
@@ -188,11 +191,3 @@
 #### Article
 
 - [面试整理：关于代价函数，正则化 - 2018](https://blog.csdn.net/meyh0x5vdtk48p2/article/details/79752784)
-
-
-## 0.7 Train & Apply
-
-#### Article
-
-- [机器学习模型应用方法综述 - 2019](https://mp.weixin.qq.com/s?__biz=MzAxMzA2MDYxMw==&mid=2651569693&idx=1&sn=4385b1ecfd0dff741edae76b6d5abe21)
-

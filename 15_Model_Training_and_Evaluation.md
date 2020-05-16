@@ -6,6 +6,20 @@
 
 - [万字长文总结机器学习的模型评估与调参 - 2019](https://mp.weixin.qq.com/s?__biz=MzIwOTc2MTUyMg==&mid=2247492923&idx=2&sn=15fd5960ca20f1bd81916e625f929448)
 
+## 15.2 Distributed Training
+
+#### Library
+
+- [DISTRIBUTED COMMUNICATION PACKAGE - TORCH.DISTRIBUTED](https://pytorch.org/docs/stable/distributed.html)
+
+#### Article
+
+- [Distributed data parallel training in Pytorch - 2019](https://yangkky.github.io/2019/07/08/distributed-pytorch-tutorial.html)
+
+    **Chineses**: [PyTorch 分布式训练简明教程](https://mp.weixin.qq.com/s/zv56wfusfPkBNYPiA2a51g)
+
+- [分布式训练的方案和效率对比 - 2020](https://mp.weixin.qq.com/s/nTBuYuW7h9wZYuo3w1xGmQ)
+
 
 ## 15.4 Model Ensembling
 

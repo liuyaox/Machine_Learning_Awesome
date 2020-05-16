@@ -71,3 +71,6 @@ node2vec主要用于处理网络结构中的多分类和链路预测任务，具
 
 - 从图(Graph)到图卷积(Graph Convolution): 漫谈图神经网络  [一](https://zhuanlan.zhihu.com/p/108294485), [二](https://zhuanlan.zhihu.com/p/108298787), [三](https://zhuanlan.zhihu.com/p/108299847)
 
+- [目前看的GNN论文的一些总结 - 2020](https://zhuanlan.zhihu.com/p/129308686)
+
+- [PinSAGE：GCN 在工业级推荐系统中的应用 - 2020](https://mp.weixin.qq.com/s/37PLr40OV_R_XzUpM2aeZQ)
