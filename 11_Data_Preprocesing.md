@@ -63,6 +63,15 @@ For Samples
 
 - [不平衡数据集的处理 - 2018](https://www.cnblogs.com/kamekin/p/9824294.html)
 
+- [分类中解决类别不平衡问题 - 2020](https://mp.weixin.qq.com/s/NE4JLEGjyCYh7nqYK8W1IQ)
+
+- [分类机器学习中，某一标签占比太大（标签稀疏），如何学习？ - 2020](https://www.zhihu.com/question/372186043)
+
+
+## 11.2 Sample Weights
+
+TODO: adboost, XGBoost里都有，有没有一些通用的做法、library？
+
 
 ## 11.3 Feature Preprocessing
 
@@ -94,7 +103,9 @@ For Samples
 - 【Great】[About Feature Scaling and Normalization – and the effect of standardization for machine learning algorithms - 2014](http://sebastianraschka.com/Articles/2014_about_feature_scaling.html)
 
 - [关于标准化和归一化的一切 - 2019](https://mp.weixin.qq.com/s?__biz=MzIwODI2NDkxNQ==&mid=2247484804&idx=3&sn=74e2179759b1a3a5f9b8c3434cdbfb01)
-  
+
+- [标准化和归一化什么区别 - 2018](https://www.zhihu.com/question/20467170)
+
 
 ### 11.3.3 Onehot Encoding
 

@@ -21,6 +21,13 @@
 
 - [Transformer在推荐模型中的应用总结 - 2019](https://zhuanlan.zhihu.com/p/85825460)
 
+- [在你做推荐系统的过程中都遇到过什么坑 - 2020](https://www.zhihu.com/question/32218407)
+
+- [人人直播带货的时代，推荐模型为什么比不过李佳琦们 - 2020](https://mp.weixin.qq.com/s/SNlRGtIeUnFYPxdzCvGB4g)
+
+- [推荐系统的价值观 - 2020](https://mp.weixin.qq.com/s/kXUAA6Fho9K7iRj2gqIeRw)
+
+
 #### Practice
 
 - <https://github.com/QingqingSUN/YoutubeNet> (Tensorflow)

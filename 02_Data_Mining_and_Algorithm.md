@@ -8,14 +8,18 @@
 
 欧式距离、曼哈顿距离、余弦距离、相关系数这些easy的就不说了
 
+### 2.3.1 Overview
+
 #### Article
 
 - [概率分布之间的距离度量以及python实现 - 2017](https://www.cnblogs.com/wt869054461/p/7156397.html)
 
 - [机器学习中的「相似度度量」方法及应用 - 2020](https://mp.weixin.qq.com/s?__biz=MzI3ODgwODA2MA==&mid=2247487937&idx=2&sn=c7bea817791d72c8e6c87fe8c59344c2)
 
+- [从Wasserstein距离、对偶理论到WGAN - 2019](https://kexue.fm/archives/6280)
 
-### 2.3.1 Histogram & Distribution Similarity
+
+### 2.3.2 Histogram & Distribution Similarity
 
 直方图Similarity，有时也适用于计算概率分布的Similarity
 
@@ -89,8 +93,10 @@ OpenCV: [EMD](https://docs.opencv.org/3.0-beta/modules/imgproc/doc/histograms.ht
   
 - [向量相似度度量（三）：科普-为什么度量方式很重要 - 2014](https://blog.csdn.net/wangdonggg/article/details/35280735)
 
+- [从EMD、WMD到WRD：文本向量序列的相似度计算 - 2020](https://mp.weixin.qq.com/s/_VBO_9yiZ0qngq4yfwcxEg)
 
-### 2.3.2 Simhash
+
+### 2.3.3 Simhash
 
 [Detecting Near-Duplicates for Web Crawling - Google2007](http://www.wwwconference.org/www2007/papers/paper215.pdf)
 
@@ -105,7 +111,7 @@ OpenCV: [EMD](https://docs.opencv.org/3.0-beta/modules/imgproc/doc/histograms.ht
 - [文档去重算法：SimHash和MinHash - 2015](https://blog.csdn.net/heiyeshuwu/article/details/44117473)
 
 
-### 2.3.3 Locality Sensitive Hashing
+### 2.3.4 Locality Sensitive Hashing
 
 LSH：即局部敏感哈希，用于海量高维数据的近似最近邻快速查找
 

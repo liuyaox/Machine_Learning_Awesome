@@ -43,8 +43,13 @@
 
 ## 22.3 Application
 
+#### Article
+
+- [知乎搜索框背后的Query理解和语义召回技术 - 2020](https://mp.weixin.qq.com/s/4Ns0qbE9d8KZRjFaSUXvRQ)
+
 #### Practice
 
 - <https://github.com/liuhuanyong/QueryCorrection>
 
     基于拼音相似度与编辑距离的查询纠错，如"手机课"-->"手机壳"
+

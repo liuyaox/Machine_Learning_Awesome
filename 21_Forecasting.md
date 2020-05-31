@@ -48,3 +48,13 @@
 #### Practice
 
 - [Multivariate Time Series Forecasting with LSTMs in Keras - 2017](https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/)
+
+
+## 21.2 Pricing
+
+#### Article
+
+- [The challenge of setting the right price - 2020](https://tryolabs.com/blog/price-optimization-machine-learning/)
+
+    **Chinese**: [机器学习如何重塑最优定价](https://mp.weixin.qq.com/s/gwq_p8sQ-7FMTagAUZO0og)
+

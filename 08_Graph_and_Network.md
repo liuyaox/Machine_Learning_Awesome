@@ -26,6 +26,10 @@ Attentions: This is about Graph, Network, NOT Image, Picture, Computer Vision, e
 
     GNN综述
 
+#### Library
+
+- [「紫禁之巅」四大图神经网络架构 - 2020](https://mp.weixin.qq.com/s/5dGxP0gjoeiaBlPy85NaPw)
+
 #### Article
 
 - [深度学习中不得不学的 Graph Embedding 方法](https://zhuanlan.zhihu.com/p/64200072)
@@ -62,6 +66,10 @@ node2vec主要用于处理网络结构中的多分类和链路预测任务，具
 #### Paper
 
 - [Graph convolutional networks: a comprehensive review - 2019](https://link.springer.com/article/10.1186/s40649-019-0069-y)
+
+- [Graph Convolutional Networks for Text Classification](https://arxiv.org/abs/1809.05679)
+
+    **Article**: [论文总结】TextGCN - 2020](https://zhuanlan.zhihu.com/p/111945052)
 
 #### Code
 

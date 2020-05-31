@@ -65,6 +65,8 @@
 
 - [神经网络多样性的意义何在？既然多层感知机在理论上已经可以拟合任何函数，为什么要有不同的形式？](https://www.zhihu.com/question/342489117)
 
+- [有没有什么可以节省大量时间的 Deep Learning 效率神器 - 2020](https://www.zhihu.com/question/384519338)
+
 #### Github
 
 - 【Great】<https://github.com/sladesha/deep_learning>

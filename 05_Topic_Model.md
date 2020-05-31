@@ -46,6 +46,10 @@ Topic modeling is an unsupervised learning method that assumes each document con
 
     基于python gensim 库的LDA算法 对中文进行文本分析
 
+#### Article
+
+- [LDA主题模型 | 原理详解与代码实战 - 2020](https://mp.weixin.qq.com/s/_WV4Uy8k3JQu__RDK8fBTw)
+
 
 ## 5.3 LSA
 

@@ -20,3 +20,13 @@
 
 - [机器学习模型应用方法综述 - 2019](https://mp.weixin.qq.com/s?__biz=MzAxMzA2MDYxMw==&mid=2651569693&idx=1&sn=4385b1ecfd0dff741edae76b6d5abe21)
 
+- [FLOPs与模型推理速度 - 2020](https://zhuanlan.zhihu.com/p/122943688)
+
+
+#### Github
+
+- <https://github.com/LisaDziuba/Marketing-for-Engineers>
+
+    霸榜 GitHub：乌克兰小姐姐写给工程师看的《市场修炼手册》
+
+

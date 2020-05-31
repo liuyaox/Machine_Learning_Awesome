@@ -124,9 +124,13 @@
 
 - [机器学习模型可解释性的详尽介绍 - 2019](https://mp.weixin.qq.com/s?__biz=MzIwOTc2MTUyMg==&mid=2247493046&idx=4&sn=142f8fb806ef0d772cbb9766db14d7de)
 
+- [简单梳理一下机器学习可解释性（Interpretability）- 2020](https://zhuanlan.zhihu.com/p/141013178)
+
 - [机器学习中有哪些形式简单却很巧妙的idea - 2019](https://www.zhihu.com/question/347847220)
 
 - 【Great】[线性代数的本质及其在AI中的应用 - 2020](https://mp.weixin.qq.com/s?__biz=MzA5ODUxOTA5Mg==&mid=2652572230&idx=1&sn=70053c5d5febab0d4a52305dc3582b43)
+
+- [透过现象看机器学习：奥卡姆剃刀，没有免费的午餐，丑小鸭定理等 - 2020](https://mp.weixin.qq.com/s/lE-0YBpj5vvc6JgmbyCcZg)
 
 
 ## 0.2 Data
