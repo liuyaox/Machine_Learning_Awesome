@@ -364,6 +364,8 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 
 ## 3.7 Loss Function
 
+交叉熵：因为真实标签为0或1，所以本质上交叉熵是：**sum(log(模型对正例样本的输出))**！
+
 #### Paper
 
 - [Visualizing the Loss Landscape of Neural Nets - Maryland2017](https://arxiv.org/abs/1712.09913)
@@ -450,7 +452,6 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
     **Chinese**: [深度学习中的正则化技术概述（附Python+keras实现代码）](https://mp.weixin.qq.com/s?__biz=MzUyOTU2MjE1OA==&mid=2247485921&idx=1&sn=b5a9320c0e7a89679de7695f3406bec7)
 
     **YAO**:
-
 
 
 ### 3.8.2 L1 & L2

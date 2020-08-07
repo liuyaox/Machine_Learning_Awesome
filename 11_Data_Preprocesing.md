@@ -45,9 +45,30 @@
        **Github**: <https://github.com/PacktPublishing/Feature-Engineering-Made-Easy>
 
 
-## 11.2 Imbalanced Data
+## 11.2 Label & Sample
 
-For Samples
+### 11.2.1 Overview
+
+#### Article
+
+- [分类问题-样本权重（sample_weight）和类别权重（class_weight）- 2019](https://zhuanlan.zhihu.com/p/75679299)
+
+    **YAO**: OK
+
+    Label Weight: 
+    - 含义1是不同Label误判的代价程度，某些Label误判代价大，则Weight要大；
+    - 含义2是类别样本量不均衡，防止模型偏向样本量大的类别，让样本量大的类别权重小一些，比如在sklearn的LR中，若自动计算Label Weight(参数class_weight='balanced')，K个Label的样本数量为ni,(i=1,2,..,K)，总样本量N，则每个Label的权重=N/K*(1/ni)，取决于样本量的倒数
+
+    Sample Weight: 含义是各样本来源不一，某些样本可信度低于其他样本，则应该设置较小的weight
+
+    在sklearn的LR中，设置了label_weight和sample_weight的样本，其最终权重是label_weight * sample_weight，通过损失函数来实现
+
+
+### 11.2.2 Imbalanced Label
+
+For Label
+
+类别加权后的一个用法是：
 
 #### Article
 
@@ -68,9 +89,25 @@ For Samples
 - [分类机器学习中，某一标签占比太大（标签稀疏），如何学习？ - 2020](https://www.zhihu.com/question/372186043)
 
 
-## 11.2 Sample Weights
+### 11.2.3 Sample Weights
 
 TODO: adboost, XGBoost里都有，有没有一些通用的做法、library？
+
+样本加权后的一个用法是：对loss加权，即模型训练时，10个样本计算出来的loss=[loss1, loss2, ..., loss10]，weights=[w1, w2, ..., w10]，则最终LOSS=loss * weights
+
+#### Article
+
+- [样本生而不等——聊聊那些对训练数据加权的方法 - 2018](https://zhuanlan.zhihu.com/p/53545036)
+
+
+### 11.2.4 Label Smoothing
+
+TF和Keras中的Loss函数已经支持，PyTorch暂无官方支持
+
+#### code
+
+- [[PyTorch][Feature Request] Label Smoothing for CrossEntropyLoss - 2018](https://github.com/pytorch/pytorch/issues/7455)
+
 
 
 ## 11.3 Feature Preprocessing
