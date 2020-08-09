@@ -128,9 +128,9 @@ TF和Keras中的Loss函数已经支持，PyTorch暂无官方支持
 
 - [How Feature Engineering can help you do well in a Kaggle competition - Part I - 2017](https://medium.com/unstructured/how-feature-engineering-can-help-you-do-well-in-a-kaggle-competition-part-i-9cc9a883514d)
 
-- [How Feature Engineering can help you do well in a Kaggle competition — Part II - 2017](https://medium.com/unstructured/how-feature-engineering-can-help-you-do-well-in-a-kaggle-competition-part-ii-3645d92282b8)
+- [How Feature Engineering can help you do well in a Kaggle competition - Part II - 2017](https://medium.com/unstructured/how-feature-engineering-can-help-you-do-well-in-a-kaggle-competition-part-ii-3645d92282b8)
 
-- [How Feature Engineering can help you do well in a Kaggle competition - 2017](https://medium.com/unstructured/how-feature-engineering-can-help-you-do-well-in-a-kaggle-competition-part-iii-f67567aaf57c)
+- [How Feature Engineering can help you do well in a Kaggle competition - Part III - 2017](https://medium.com/unstructured/how-feature-engineering-can-help-you-do-well-in-a-kaggle-competition-part-iii-f67567aaf57c)
 
 
 ### 11.3.2 Standardization & Normalization

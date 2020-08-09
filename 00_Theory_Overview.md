@@ -194,7 +194,11 @@
     **Chinese**: [一文简述如何使用嵌套交叉验证方法处理时序数据](https://www.jiqizhixin.com/articles/052701)
 
 
-## 0.6 Cost Function
+## 0.6 Loss/Cost Function
+
+目标函数O = 损失函数(又叫代价函数)L + 正则项J
+
+经验风险最小化是指最小化L，结构风险最小化是指最小化J，
 
 #### Article
 
