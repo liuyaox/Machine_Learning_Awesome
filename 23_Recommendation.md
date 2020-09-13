@@ -27,6 +27,10 @@
 
 - [推荐系统的价值观 - 2020](https://mp.weixin.qq.com/s/kXUAA6Fho9K7iRj2gqIeRw)
 
+- [推荐系统主流召回方法综述 - 2020](https://mp.weixin.qq.com/s/6Y-dqpn18wpXo6kDH5AgIQ)
+
+- [基于内容和上下文的音乐推荐 - 2020](https://mp.weixin.qq.com/s/QnRELZ40AcknvGhixjRiWQ)
+
 
 #### Practice
 

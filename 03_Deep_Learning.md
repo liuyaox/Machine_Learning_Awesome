@@ -51,6 +51,7 @@
 
     **Note**: [深度学习笔记目录](http://www.ai-start.com/dl2017/)
 
+
 #### Article
 
 - [这 28 张精炼图，将吴恩达的 deeplearning.ai 总结得恰到好处！](https://mp.weixin.qq.com/s?__biz=MzIwOTc2MTUyMg==&mid=2247487236&idx=1&sn=4547a524c6884adfff4c13ba0287cf98)
@@ -67,6 +68,7 @@
 
 - [有没有什么可以节省大量时间的 Deep Learning 效率神器 - 2020](https://www.zhihu.com/question/384519338)
 
+
 #### Github
 
 - 【Great】<https://github.com/sladesha/deep_learning>
@@ -76,6 +78,13 @@
 - <https://github.com/MingchaoZhu/DeepLearning>
 
     《深度学习》(花书) 数学推导、原理剖析与源码级别代码实现
+
+
+#### Practice
+
+- [深度学习模型训练全流程 - 2020](https://mp.weixin.qq.com/s/jdZdydS0rYhcsH9bkqr9kw)
+
+    Basic全流程，可作为通俗介绍和入门
 
 
 ## 3.2 CNN
@@ -439,6 +448,10 @@ AWD-LSTM 对 LSTM 模型进行了改进，包括在隐藏层间加入 dropout �
 - [神经网络中，设计loss function有哪些技巧](https://www.zhihu.com/question/268105631)
 
 - [深度学习中loss和accuracy的关系](https://www.zhihu.com/question/264892967)
+
+- 【Great】[机器学习常用损失函数小结 - 2020](https://zhuanlan.zhihu.com/p/77686118)
+
+    介绍Loss Function原理，以及背后的假设和理念！
 
 
 ## 3.8 Regularization

@@ -3,6 +3,12 @@
 
 ## 2.1 Overview
 
+## 2.2 Math
+
+#### Article
+
+- [梯度、散度、旋度、Jacobian、Hessian、Laplacian 的关系图 - 2019](https://zhuanlan.zhihu.com/p/35323714)
+
 
 ## 2.3 Similarity
 
@@ -135,6 +141,8 @@ LSH：即局部敏感哈希，用于海量高维数据的近似最近邻快速�
 #### KL Divergence
 
 - [Kullback-Leibler Divergence Explained - 2017](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained)
+
+- [一文直观理解KL散度 - 2020](https://mp.weixin.qq.com/s/RZ7AiLzLsKTCqU7OwJoMwQ)
 
 
 ## 2.5 SVD

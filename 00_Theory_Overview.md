@@ -37,6 +37,7 @@
 
     手写实现李航《统计学习方法》书中全部算法
 
+
 #### Website
 
 - <https://www.jiqizhixin.com/sota>
@@ -61,6 +62,10 @@
     **Note**: <https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes>
 
     **Note**: [斯坦福大学2014机器学习教程中文笔记目录](http://www.ai-start.com/ml2014/)
+
+- <https://github.com/datawhalechina/leeml-notes>
+
+    李宏毅机器学习笔记
 
 
 #### Practice
@@ -89,6 +94,7 @@
 - <https://github.com/datawhalechina/pumpkin-book>
 
     《机器学习》（西瓜书）公式推导解析
+
 
 #### Article
 
@@ -131,6 +137,8 @@
 - 【Great】[线性代数的本质及其在AI中的应用 - 2020](https://mp.weixin.qq.com/s?__biz=MzA5ODUxOTA5Mg==&mid=2652572230&idx=1&sn=70053c5d5febab0d4a52305dc3582b43)
 
 - [透过现象看机器学习：奥卡姆剃刀，没有免费的午餐，丑小鸭定理等 - 2020](https://mp.weixin.qq.com/s/lE-0YBpj5vvc6JgmbyCcZg)
+
+- [盘点人工智能十大经典应用领域、图解技术原理 - 2020](https://mp.weixin.qq.com/s/727dcagiFb1mY8BpNN4Ftw)
 
 
 ## 0.2 Data
