@@ -21,10 +21,7 @@ df.label.value_counts(dropna=False)
 
 # 2. 无用列处理
 df.columns
-cols2del = ['comment_label', 'comment_god', 'comment_label_1', 'comment_label_2', 'comment_label_3', 'comment_label_4',
-            'comment_id2', 'user_id', 'author_user_id', 'author_device_id', 'date', 'cert_name', 'item_create_day', 
-            'group_comment_counter', 'group_comment_feature', 'user_comment_feature_cmt', 'user_comment_feature_verify',
-           'group_comment_counter0', 'group_comment_feature0', 'user_comment_feature_30d_cmt', 'user_comment_feature_verify0']
+cols2del = ['xxx', 'xxx']
 for col in cols2del:
     del df[col]
 
