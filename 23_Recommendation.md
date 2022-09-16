@@ -113,6 +113,22 @@ c. 细节太多，受启发的也太多！
 - [强化学习用于推荐系统，蚂蚁金服提出生成对抗用户模型](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650763260&idx=3&sn=ae589196211189a8aba6f56a11e2cccb)
 
 
+### 23.3.2 [Attentional Factorization Machines: Learning the Weight of Feature Interactions via Attention Networks - ZJU&Singapore2017](https://arxiv.org/abs/1708.04617)
+
+#### Code
+
+- 官方Code: <https://github.com/hexiangnan/attentional_factorization_machine>
+
+- <https://github.com/wziji/deep_ctr/tree/master/AFM>
+
+#### Article
+
+- [注意力机制在深度推荐算法中的应用之AFM模型 - 2020](https://zhuanlan.zhihu.com/p/150978062)
+
+- [推荐算法精排模型AFM：Attentional Factorization Machines - 2021](https://zhuanlan.zhihu.com/p/395140453)
+
+
+
 ## 23.4 Competition
 
 **2017达观杯 个性化推荐算法挑战赛**

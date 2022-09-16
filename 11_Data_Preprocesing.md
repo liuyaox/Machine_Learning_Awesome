@@ -164,6 +164,33 @@ TF和Keras中的Loss函数已经支持，PyTorch暂无官方支持
     **Chinese**: [特征选择怎么做？这篇文章告诉你](https://mp.weixin.qq.com/s?__biz=MzU3NjE4NjQ4MA==&mid=2247486261&idx=4&sn=04a6e216468b8429e38f580089dd9f82)
 
 
+- [机器学习基础：11 种特征选择策略总结！- 2022](https://mp.weixin.qq.com/s/GlfF4k5pSDOAy7k838C0_g)
+
+- [特征选择---过滤法（特征相关性分析）- 2019](https://www.cnblogs.com/nxf-rabbit75/p/11122415.html)
+    
+- 【Great】[分类变量、有序变量与数值变量相关性分析方法总结及R语言应用 - 2022](https://blog.csdn.net/weixin_39982225/article/details/104875676)
+
+    数值特征 VS 数值特征：协方差、Pearson相关系数(df.corr/np.corrcoef/scipy.stats.pearsonr)、Spearman相关系数、Kendall秩相关系数，
+
+    数值特征 VS 类别特征：
+    - 二分类：点二列(Point-biserial)相关系数，T检验
+    - 多分类：单因素方差分析(F检验)
+    - 通用：观察箱线图（不同分类对应的数值特征的分布是否有显著差异，有则相关，类别分布最好均衡一些）
+
+    无序类别特征 VS 无序类别特征：卡方检验(sklearn.feature_selection.SelectKBest,chi2)、Fisher得分、F检验、斯皮尔曼等级相关、Kendall相关系数、距离相关系数
+
+    有序类别特征 VS 有序类别特征：
+    - 类别之间不定距：Spearman相关系数、Kendall等级相关系数
+    - 类别之间定距：Mantel-haenszel卡方趋势检验
+
+- [相关分析和Python实现—比较全 - 2021](https://zhuanlan.zhihu.com/p/432533851)
+
+
+#### Script
+
+- [code/feature_eda.py](https://github.com/liuyaox/Machine_Learning_Awesome/blob/master/code/feature_eda.py)
+
+
 ## 11.5 Dimensionality Reduction
 
 #### Code
